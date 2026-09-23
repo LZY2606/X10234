@@ -1,0 +1,20 @@
+{
+  "name": "tilt-chamber-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支审阅工具",
+  "scripts": {
+    "dev": "node --no-warnings server/main.ts --host 127.0.0.1 --port 5349 --strictPort",
+    "build-case-pack": "node --no-warnings scripts/build-case-pack.ts",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "happy-dom": "^15.11.7",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.5"
+  }
+}
