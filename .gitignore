@@ -34,3 +34,11 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# --- 本项目本地数据（随时可删除并重新导入案例包）---
+/data/
+/*.sqlite
+/*.sqlite-journal
+/*.sqlite-wal
+/*.sqlite-shm
+/test-results/
