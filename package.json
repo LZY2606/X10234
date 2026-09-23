@@ -1,0 +1,26 @@
+{
+  "name": "tilt-series-registration-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "电子断层倾转序列 / fiducial 轨迹 / 配准候选分支审阅工具",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build:cases": "tsx scripts/build-cases.ts",
+    "pretest": "tsx scripts/build-cases.ts",
+    "test": "vitest run",
+    "dev": "tsx server.ts",
+    "start": "tsx server.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "playwright-core": "^1.49.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  }
+}
