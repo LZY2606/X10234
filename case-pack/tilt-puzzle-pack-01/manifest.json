@@ -1,0 +1,59 @@
+{
+  "schema": "tilt-puzzle-pack-01/manifest/1",
+  "scenarios": [
+    {
+      "code": "axis-eccentric",
+      "mode": "minimal",
+      "dir": "minimal/axis-eccentric",
+      "frames": 13
+    },
+    {
+      "code": "track-identity-swap",
+      "mode": "minimal",
+      "dir": "minimal/track-identity-swap",
+      "frames": 13
+    },
+    {
+      "code": "missing-high-tilt",
+      "mode": "minimal",
+      "dir": "minimal/missing-high-tilt",
+      "frames": 13
+    },
+    {
+      "code": "bad-frame-exclusion",
+      "mode": "minimal",
+      "dir": "minimal/bad-frame-exclusion",
+      "frames": 13
+    },
+    {
+      "code": "local-warp-overfit",
+      "mode": "minimal",
+      "dir": "minimal/local-warp-overfit",
+      "frames": 13
+    },
+    {
+      "code": "multi-solution",
+      "mode": "minimal",
+      "dir": "minimal/multi-solution",
+      "frames": 9
+    },
+    {
+      "code": "concurrent-freeze",
+      "mode": "minimal",
+      "dir": "minimal/concurrent-freeze",
+      "frames": 9
+    }
+  ],
+  "combined": {
+    "mode": "combined",
+    "dir": "combined/combined",
+    "frames": 13
+  },
+  "uniqueBlobs": 88,
+  "narrative": [
+    "初始导入：核对原始帧/倾角/像素尺度/剂量/标记点/跟踪缺口/手工排除原因",
+    "参数修订：轴线 hint 从 0° 改为按自由轴搜索",
+    "局部源数据改动：仅修正一帧 fiducial 坐标，失效范围限定为依赖该观测的候选",
+    "冲突人工决定：两个会话分别接受不同候选，后提交产生版本冲突"
+  ]
+}

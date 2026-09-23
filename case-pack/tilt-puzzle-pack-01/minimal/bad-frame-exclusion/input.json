@@ -1,0 +1,927 @@
+{
+  "schema": "tilt-stitch-room/raw-input/1",
+  "coordinateReference": "detector-pixels",
+  "origin": "upper-left",
+  "pixelScale": {
+    "raw": "0.84 nm/px",
+    "rawUnit": "nm/px",
+    "value": 0.84,
+    "unit": "nm/pixel",
+    "basis": "microscope-calibration-2026-09-19"
+  },
+  "tiltAngles": {
+    "unit": "degrees",
+    "rawUnit": "°",
+    "values": [
+      {
+        "frameId": "f-00",
+        "raw": -60
+      },
+      {
+        "frameId": "f-01",
+        "raw": -50
+      },
+      {
+        "frameId": "f-02",
+        "raw": -40
+      },
+      {
+        "frameId": "f-03",
+        "raw": -30
+      },
+      {
+        "frameId": "f-04",
+        "raw": -20
+      },
+      {
+        "frameId": "f-05",
+        "raw": -10
+      },
+      {
+        "frameId": "f-06",
+        "raw": 0
+      },
+      {
+        "frameId": "f-07",
+        "raw": 10
+      },
+      {
+        "frameId": "f-08",
+        "raw": 20
+      },
+      {
+        "frameId": "f-09",
+        "raw": 30
+      },
+      {
+        "frameId": "f-10",
+        "raw": 40
+      },
+      {
+        "frameId": "f-11",
+        "raw": 50
+      },
+      {
+        "frameId": "f-12",
+        "raw": 60
+      }
+    ]
+  },
+  "dose": {
+    "unit": "e-/A^2",
+    "rawUnit": "e-/Å^2",
+    "values": [
+      {
+        "frameId": "f-00",
+        "raw": 2.52,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-01",
+        "raw": 2.45,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-02",
+        "raw": 2.38,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-03",
+        "raw": 2.31,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-04",
+        "raw": 2.24,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-05",
+        "raw": 2.17,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-06",
+        "raw": 2.1,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-07",
+        "raw": "N/A（剂量计离线，保留原值不转换）",
+        "convertible": false,
+        "diagnostics": [
+          "UNCONVERTIBLE_DOSE: 剂量计离线，原值留在原位置，不用于绘图归一化"
+        ]
+      },
+      {
+        "frameId": "f-08",
+        "raw": 2.24,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-09",
+        "raw": 2.31,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-10",
+        "raw": 2.38,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-11",
+        "raw": 2.45,
+        "convertible": true,
+        "diagnostics": []
+      },
+      {
+        "frameId": "f-12",
+        "raw": 2.52,
+        "convertible": true,
+        "diagnostics": []
+      }
+    ]
+  },
+  "frames": [
+    {
+      "frameId": "f-00",
+      "index": 0,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": -60,
+      "dose": 2.52,
+      "blobSha": "f30edfc6303c31802fa819a087b09da595fdd97e575a5a0d42d95763a5a7a9fc",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-01",
+      "index": 1,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": -50,
+      "dose": 2.45,
+      "blobSha": "ef63fc436df508c407d2fdea7b827d85af7660f76c3064aab687d5998a812cb7",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-02",
+      "index": 2,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": -40,
+      "dose": 2.38,
+      "blobSha": "1133ea9b32e343eb2a53f717408ea83d8d294cb6f3c07bf7d92fd043259a6e80",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-03",
+      "index": 3,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": -30,
+      "dose": 2.31,
+      "blobSha": "f68293386bcee74a35f3884ddec8803cf89cb6f873c3e39d3c6445df504e6854",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-04",
+      "index": 4,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": -20,
+      "dose": 2.24,
+      "blobSha": "6ff437f32d6c45d9d21a82b3e520b8de0ba6fab3f537cc695b005a23bfe03a63",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-05",
+      "index": 5,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": -10,
+      "dose": 2.17,
+      "blobSha": "8ee1769be25d91b2f3532759a57354eba56663dedf4bd99acb29dcde3651ef31",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-06",
+      "index": 6,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": 0,
+      "dose": 2.1,
+      "blobSha": "5e9b6665a3365742b0b999a6cf81d260b62d12daf40cdc919b7ad02164ccbda5",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-07",
+      "index": 7,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": 10,
+      "dose": "N/A（剂量计离线，保留原值不转换）",
+      "blobSha": "89e6c0d69251d961b98c4e883ab40f81682dbd50a3c0f555736b59be7955b26f",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-08",
+      "index": 8,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": 20,
+      "dose": 2.24,
+      "blobSha": "c4d341b6302f79fb520bcab467ed7438f90cb51a9732f9023c318c28df6f1871",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-09",
+      "index": 9,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": 30,
+      "dose": 2.31,
+      "blobSha": "ea771e9b8bacf22e915e7aec4eb0d1bddf739fa38ee2a5973d16c66b8267860c",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-10",
+      "index": 10,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": 40,
+      "dose": 2.38,
+      "blobSha": "5ce4da5467335ce222ad44822e6aa4c2d5e885bcb1c11bc2e06e85574f3f5140",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-11",
+      "index": 11,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": 50,
+      "dose": 2.45,
+      "blobSha": "7914ee85511d2343712a99de8abc04109306e1ee94bd5c88ef45a09fcb89a410",
+      "width": 160,
+      "height": 120
+    },
+    {
+      "frameId": "f-12",
+      "index": 12,
+      "planned": true,
+      "acquired": true,
+      "tiltAngleDeg": 60,
+      "dose": 2.52,
+      "blobSha": "59030eb83792c813e30110e97c0bc53bdddaa41f160299c9513b8450a34fdbfe",
+      "width": 160,
+      "height": 120
+    }
+  ],
+  "tracks": {
+    "m1": [
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-00",
+        "coordinateSystem": "detector-pixels",
+        "x": 52.528,
+        "y": 82.285,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-01",
+        "coordinateSystem": "detector-pixels",
+        "x": 49.391,
+        "y": 77.224,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-02",
+        "coordinateSystem": "detector-pixels",
+        "x": 47.477,
+        "y": 70.947,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-03",
+        "coordinateSystem": "detector-pixels",
+        "x": 45.969,
+        "y": 64.003,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-04",
+        "coordinateSystem": "detector-pixels",
+        "x": 45.711,
+        "y": 56.907,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-05",
+        "coordinateSystem": "detector-pixels",
+        "x": 46.841,
+        "y": 50.803,
+        "quality": 0.25
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-06",
+        "coordinateSystem": "detector-pixels",
+        "x": 48.704,
+        "y": 44.847,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-07",
+        "coordinateSystem": "detector-pixels",
+        "x": 52.186,
+        "y": 39.08,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-08",
+        "coordinateSystem": "detector-pixels",
+        "x": 56.283,
+        "y": 33.531,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-09",
+        "coordinateSystem": "detector-pixels",
+        "x": 61.794,
+        "y": 29.151,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-10",
+        "coordinateSystem": "detector-pixels",
+        "x": 66.64,
+        "y": 24.99,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-11",
+        "coordinateSystem": "detector-pixels",
+        "x": 73.63,
+        "y": 22.647,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m1",
+        "segmentId": "seg-0",
+        "frame": "f-12",
+        "coordinateSystem": "detector-pixels",
+        "x": 80.017,
+        "y": 22.241,
+        "quality": 0.92
+      }
+    ],
+    "m2": [
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-00",
+        "coordinateSystem": "detector-pixels",
+        "x": 102.579,
+        "y": 40.271,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-01",
+        "coordinateSystem": "detector-pixels",
+        "x": 106.013,
+        "y": 43.7,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-02",
+        "coordinateSystem": "detector-pixels",
+        "x": 107.832,
+        "y": 48.03,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-03",
+        "coordinateSystem": "detector-pixels",
+        "x": 109.916,
+        "y": 52.373,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-04",
+        "coordinateSystem": "detector-pixels",
+        "x": 110.931,
+        "y": 56.716,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-05",
+        "coordinateSystem": "detector-pixels",
+        "x": 110.779,
+        "y": 60.936,
+        "quality": 0.25
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-06",
+        "coordinateSystem": "detector-pixels",
+        "x": 110.041,
+        "y": 65.651,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-07",
+        "coordinateSystem": "detector-pixels",
+        "x": 109.256,
+        "y": 70.929,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-08",
+        "coordinateSystem": "detector-pixels",
+        "x": 106.607,
+        "y": 74.675,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-09",
+        "coordinateSystem": "detector-pixels",
+        "x": 103.716,
+        "y": 78.683,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-10",
+        "coordinateSystem": "detector-pixels",
+        "x": 99.793,
+        "y": 81.749,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-11",
+        "coordinateSystem": "detector-pixels",
+        "x": 95.774,
+        "y": 84.287,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m2",
+        "segmentId": "seg-0",
+        "frame": "f-12",
+        "coordinateSystem": "detector-pixels",
+        "x": 91.904,
+        "y": 85.658,
+        "quality": 0.92
+      }
+    ],
+    "m3": [
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-00",
+        "coordinateSystem": "detector-pixels",
+        "x": 102.311,
+        "y": 77.544,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-01",
+        "coordinateSystem": "detector-pixels",
+        "x": 98.875,
+        "y": 80.845,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-02",
+        "coordinateSystem": "detector-pixels",
+        "x": 94.644,
+        "y": 82.71,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-03",
+        "coordinateSystem": "detector-pixels",
+        "x": 91.309,
+        "y": 84.625,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-04",
+        "coordinateSystem": "detector-pixels",
+        "x": 86.905,
+        "y": 85.094,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-05",
+        "coordinateSystem": "detector-pixels",
+        "x": 81.901,
+        "y": 85.733,
+        "quality": 0.25
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-06",
+        "coordinateSystem": "detector-pixels",
+        "x": 78.219,
+        "y": 84.522,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-07",
+        "coordinateSystem": "detector-pixels",
+        "x": 73.118,
+        "y": 82.607,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-08",
+        "coordinateSystem": "detector-pixels",
+        "x": 69.186,
+        "y": 81.014,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-09",
+        "coordinateSystem": "detector-pixels",
+        "x": 66.654,
+        "y": 78.549,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-10",
+        "coordinateSystem": "detector-pixels",
+        "x": 63.828,
+        "y": 74.695,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-11",
+        "coordinateSystem": "detector-pixels",
+        "x": 61.098,
+        "y": 70.998,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m3",
+        "segmentId": "seg-0",
+        "frame": "f-12",
+        "coordinateSystem": "detector-pixels",
+        "x": 59.57,
+        "y": 67.332,
+        "quality": 0.92
+      }
+    ],
+    "m4": [
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-00",
+        "coordinateSystem": "detector-pixels",
+        "x": 88.776,
+        "y": 26.619,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-01",
+        "coordinateSystem": "detector-pixels",
+        "x": 94.582,
+        "y": 28.188,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-02",
+        "coordinateSystem": "detector-pixels",
+        "x": 100.231,
+        "y": 30.179,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-03",
+        "coordinateSystem": "detector-pixels",
+        "x": 105.093,
+        "y": 33.456,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-04",
+        "coordinateSystem": "detector-pixels",
+        "x": 108.934,
+        "y": 37.731,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-05",
+        "coordinateSystem": "detector-pixels",
+        "x": 112.583,
+        "y": 42.086,
+        "quality": 0.25
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-06",
+        "coordinateSystem": "detector-pixels",
+        "x": 114.991,
+        "y": 47.69,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-07",
+        "coordinateSystem": "detector-pixels",
+        "x": 116.671,
+        "y": 52.976,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-08",
+        "coordinateSystem": "detector-pixels",
+        "x": 117.119,
+        "y": 59.197,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-09",
+        "coordinateSystem": "detector-pixels",
+        "x": 117.672,
+        "y": 65.32,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-10",
+        "coordinateSystem": "detector-pixels",
+        "x": 116.248,
+        "y": 70.596,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-11",
+        "coordinateSystem": "detector-pixels",
+        "x": 113.118,
+        "y": 76.353,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m4",
+        "segmentId": "seg-0",
+        "frame": "f-12",
+        "coordinateSystem": "detector-pixels",
+        "x": 110.387,
+        "y": 81.36,
+        "quality": 0.92
+      }
+    ],
+    "m5": [
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-00",
+        "coordinateSystem": "detector-pixels",
+        "x": 112.348,
+        "y": 70.824,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-01",
+        "coordinateSystem": "detector-pixels",
+        "x": 109.533,
+        "y": 75.805,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-02",
+        "coordinateSystem": "detector-pixels",
+        "x": 106.507,
+        "y": 80.566,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-03",
+        "coordinateSystem": "detector-pixels",
+        "x": 102.393,
+        "y": 84.18,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-04",
+        "coordinateSystem": "detector-pixels",
+        "x": 98.479,
+        "y": 86.98,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-05",
+        "coordinateSystem": "detector-pixels",
+        "x": 93.392,
+        "y": 88.251,
+        "quality": 0.25
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-06",
+        "coordinateSystem": "detector-pixels",
+        "x": 88.141,
+        "y": 90.209,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-07",
+        "coordinateSystem": "detector-pixels",
+        "x": 82.357,
+        "y": 90.536,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-08",
+        "coordinateSystem": "detector-pixels",
+        "x": 77.236,
+        "y": 89.197,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-09",
+        "coordinateSystem": "detector-pixels",
+        "x": 72.507,
+        "y": 88.228,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-10",
+        "coordinateSystem": "detector-pixels",
+        "x": 67.718,
+        "y": 85.531,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-11",
+        "coordinateSystem": "detector-pixels",
+        "x": 64.156,
+        "y": 82.522,
+        "quality": 0.92
+      },
+      {
+        "markerId": "m5",
+        "segmentId": "seg-0",
+        "frame": "f-12",
+        "coordinateSystem": "detector-pixels",
+        "x": 60.565,
+        "y": 77.919,
+        "quality": 0.92
+      }
+    ]
+  },
+  "gaps": [],
+  "manualExclusions": [
+    {
+      "frameId": "f-05",
+      "reason": "束漂+平台抖动，fiducial quality=0.25，人工确认排除",
+      "operator": "em-team"
+    }
+  ],
+  "groundTruth": {
+    "axisAngleDeg": 4,
+    "axisOffsetPx": {
+      "x": 84,
+      "width": 160
+    },
+    "width": 160,
+    "height": 120
+  },
+  "axisHint": {
+    "angleDeg": 0,
+    "note": "导入时不得把轴线默认固定在图像中心；hint 仅供对照，不是结论"
+  },
+  "provenance": {
+    "scenario": "bad-frame-exclusion",
+    "mode": "minimal"
+  },
+  "unconvertibleFrames": [
+    "f-07"
+  ],
+  "notes": "tilt-puzzle-pack-01 synthetic tilt-series；像素尺度 0.84 nm/pixel；探测器像素坐标原点左上 x→ y↓。"
+}
