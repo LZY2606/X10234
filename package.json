@@ -1,0 +1,33 @@
+{
+  "name": "tilt-frame-assembly-room",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支审阅工具",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install-browser.mjs",
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:e2e": "playwright test --config=playwright.config.ts",
+    "test:all": "vitest run && playwright test --config=playwright.config.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}

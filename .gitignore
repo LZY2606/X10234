@@ -34,3 +34,9 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+
+# --- tilt-frame-assembly-room runtime data ---
+/data/
+/tilt-room-*.sqlite
+/tilt-room-*.sqlite-*
+.playwright-browsers/

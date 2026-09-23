@@ -1,0 +1,3366 @@
+{
+  "caseId": "tilt-room-case",
+  "title": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支",
+  "domain": "electron-tomography-tilt-series-registration",
+  "image": {
+    "width": 256,
+    "height": 256
+  },
+  "axisHint": {
+    "angleDeg": 12,
+    "knownOffsetPx": 14
+  },
+  "pixelScale": {
+    "scope": "series",
+    "scale": {
+      "value": 0.84,
+      "unit": "nm/pixel",
+      "rawRepresentation": "0.84 nm/pixel",
+      "provenance": "microscope-header.txt"
+    }
+  },
+  "frames": [
+    {
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "tiltDeg": -60,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_00.pgm",
+        "sha256": "cf9b734d62d28f03354918273bde88bb4da47bf2c3578fdac237f7a74f09008e",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "tiltDeg": -54,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_01.pgm",
+        "sha256": "6f11af2c7304b5f9ee985e8cb0a5be96fd7d85bb703ce47969d96bc144eb136d",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "tiltDeg": -48,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_02.pgm",
+        "sha256": "17ace0f47d7165bbd735d9d9ff4b1cb64dd4d1ba46c35e0d8c389b110e7743e6",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "tiltDeg": -42,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_03.pgm",
+        "sha256": "5d9cf422d042d105b20ab3399a9b356d0dc17d948f5a6b23ed7f2a40f8632f71",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": true,
+      "acquisitionNote": "载网跳动 + 条带污染（手工标记疑似坏帧）"
+    },
+    {
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "tiltDeg": -36,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_04.pgm",
+        "sha256": "7abe84d18eb169300ed3155c6daa9c9712d47040cd68fed343b12b25c6eaa340",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "tiltDeg": -30,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_05.pgm",
+        "sha256": "4588da2f2c53f30f7dce7c1b2e38d8ef90b61893e37f637fddbaba7fbdbb2b63",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "tiltDeg": -24,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_06.pgm",
+        "sha256": "1bb93dd3210f56fcf65796cb25f735a25ee61cf3abc7b7a3c971da3804319fc6",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "tiltDeg": -18,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_07.pgm",
+        "sha256": "d198a79fa34a483d6129e567ea95cc63f2336cdede50633a8f6179a98d907653",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "tiltDeg": -12,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_08.pgm",
+        "sha256": "0fb0dc9c6cffa6d324e469819dc2926dbaec4233d57203aa503789338010c6c0",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "tiltDeg": -6,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_09.pgm",
+        "sha256": "35204b1a9bafcde0599d0ded0dc17314242b86c9b51b2f895d8c127449fc77c4",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "tiltDeg": 0,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_10.pgm",
+        "sha256": "c26bf16f3a41e95a83bbf80b5da40d7a55b8cca977d708de4deff8e24b9b4d56",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "tiltDeg": 6,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_11.pgm",
+        "sha256": "4741c7b1aeb3b2891540828a47368375244d616120b771dae114444af28ec7d4",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "tiltDeg": 12,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_12.pgm",
+        "sha256": "8fd37363821e9ee09674bba599d883f97e5853e10f1b85610217e0b56e90ab80",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "tiltDeg": 18,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_13.pgm",
+        "sha256": "60c06ccdf80f636aecb1e49c194cd96bb84dade9ba76611c491f735bf02e7f7a",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "tiltDeg": 24,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_14.pgm",
+        "sha256": "a0c5954faa158b5b04c1d516140b4b67b7d5b1206a343d0f2c2ace883af303af",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "tiltDeg": 30,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_15.pgm",
+        "sha256": "5d10e2945ec60606a885e7e910b6f329e6c8929529e6d4e16c8165d493214288",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "tiltDeg": 36,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_16.pgm",
+        "sha256": "62dce90aabf8ccf45df356313732aea0a3f620b4ae7590f03b90810d3ab2ab8e",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "tiltDeg": 42,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_17.pgm",
+        "sha256": "1866ec259605b3fc0cad01e719f0bcd514afabd64729881e09cb21fa38cd1b41",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "tiltDeg": 48,
+      "width": 256,
+      "height": 256,
+      "present": true,
+      "blob": {
+        "path": "raw/frame_18.pgm",
+        "sha256": "c625789dc7dbcd3f7102691f7d8d80ccf2f4e3735a48e7ed249e67fa8749d127",
+        "byteLength": 65551,
+        "contentType": "image/x-portable-graymap"
+      },
+      "missingReason": null,
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_19",
+      "sequenceIndex": 19,
+      "tiltDeg": 54,
+      "width": 256,
+      "height": 256,
+      "present": false,
+      "blob": null,
+      "missingReason": "高倾角帧未采集（dose-symmetric 序列末端缺失）",
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    },
+    {
+      "frameId": "frame_20",
+      "sequenceIndex": 20,
+      "tiltDeg": 60,
+      "width": 256,
+      "height": 256,
+      "present": false,
+      "blob": null,
+      "missingReason": "高倾角帧未采集（dose-symmetric 序列末端缺失）",
+      "badFrame": false,
+      "acquisitionNote": "正常曝光"
+    }
+  ],
+  "tiltAngles": [
+    {
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "angle": {
+        "value": -60,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-60deg",
+        "provenance": "tilt-series.csv:L2"
+      }
+    },
+    {
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "angle": {
+        "value": -54,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-54deg",
+        "provenance": "tilt-series.csv:L3"
+      }
+    },
+    {
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "angle": {
+        "value": -48,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-48deg",
+        "provenance": "tilt-series.csv:L4"
+      }
+    },
+    {
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "angle": {
+        "value": -42,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-42deg",
+        "provenance": "tilt-series.csv:L5"
+      }
+    },
+    {
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "angle": {
+        "value": -36,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-36deg",
+        "provenance": "tilt-series.csv:L6"
+      }
+    },
+    {
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "angle": {
+        "value": -30,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-30deg",
+        "provenance": "tilt-series.csv:L7"
+      }
+    },
+    {
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "angle": {
+        "value": -24,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-24deg",
+        "provenance": "tilt-series.csv:L8"
+      }
+    },
+    {
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "angle": {
+        "value": -18,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-18deg",
+        "provenance": "tilt-series.csv:L9"
+      }
+    },
+    {
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "angle": {
+        "value": -12,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-12deg",
+        "provenance": "tilt-series.csv:L10"
+      }
+    },
+    {
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "angle": {
+        "value": -6,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "-6deg",
+        "provenance": "tilt-series.csv:L11"
+      }
+    },
+    {
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "angle": {
+        "value": 0,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+0deg",
+        "provenance": "tilt-series.csv:L12"
+      }
+    },
+    {
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "angle": {
+        "value": 6,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+6deg",
+        "provenance": "tilt-series.csv:L13"
+      }
+    },
+    {
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "angle": {
+        "value": 12,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+12deg",
+        "provenance": "tilt-series.csv:L14"
+      }
+    },
+    {
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "angle": {
+        "value": 18,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+18deg",
+        "provenance": "tilt-series.csv:L15"
+      }
+    },
+    {
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "angle": {
+        "value": 24,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+24deg",
+        "provenance": "tilt-series.csv:L16"
+      }
+    },
+    {
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "angle": {
+        "value": 30,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+30deg",
+        "provenance": "tilt-series.csv:L17"
+      }
+    },
+    {
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "angle": {
+        "value": 36,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+36deg",
+        "provenance": "tilt-series.csv:L18"
+      }
+    },
+    {
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "angle": {
+        "value": 42,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+42deg",
+        "provenance": "tilt-series.csv:L19"
+      }
+    },
+    {
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "angle": {
+        "value": 48,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+48deg",
+        "provenance": "tilt-series.csv:L20"
+      }
+    },
+    {
+      "frameId": "frame_19",
+      "sequenceIndex": 19,
+      "angle": {
+        "value": 54,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+54deg",
+        "provenance": "tilt-series.csv:L21"
+      }
+    },
+    {
+      "frameId": "frame_20",
+      "sequenceIndex": 20,
+      "angle": {
+        "value": 60,
+        "unit": "degree",
+        "coordinateFrame": "stage",
+        "rawRepresentation": "+60deg",
+        "provenance": "tilt-series.csv:L22"
+      }
+    }
+  ],
+  "doses": [
+    {
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "exposure": {
+        "value": 2.52,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.520 e-/A^2",
+        "provenance": "dose-log.txt:L1"
+      }
+    },
+    {
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "exposure": {
+        "value": 2.448,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.448 e-/A^2",
+        "provenance": "dose-log.txt:L2"
+      }
+    },
+    {
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "exposure": {
+        "value": 2.376,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.376 e-/A^2",
+        "provenance": "dose-log.txt:L3"
+      }
+    },
+    {
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "exposure": {
+        "value": 2.304,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.304 e-/A^2",
+        "provenance": "dose-log.txt:L4"
+      }
+    },
+    {
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "exposure": {
+        "value": 2.232,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.232 e-/A^2",
+        "provenance": "dose-log.txt:L5"
+      }
+    },
+    {
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "exposure": {
+        "value": 2.16,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.160 e-/A^2",
+        "provenance": "dose-log.txt:L6"
+      }
+    },
+    {
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "exposure": {
+        "value": 2.088,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.088 e-/A^2",
+        "provenance": "dose-log.txt:L7"
+      }
+    },
+    {
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "exposure": {
+        "value": 2.016,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.016 e-/A^2",
+        "provenance": "dose-log.txt:L8"
+      }
+    },
+    {
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "exposure": {
+        "value": 1.944,
+        "unit": "e-/A^2",
+        "rawRepresentation": "1.944 e-/A^2",
+        "provenance": "dose-log.txt:L9"
+      }
+    },
+    {
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "exposure": {
+        "value": 1.872,
+        "unit": "e-/A^2",
+        "rawRepresentation": "1.872 e-/A^2",
+        "provenance": "dose-log.txt:L10"
+      }
+    },
+    {
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "exposure": {
+        "value": 1.8,
+        "unit": "e-/A^2",
+        "rawRepresentation": "1.800 e-/A^2",
+        "provenance": "dose-log.txt:L11"
+      }
+    },
+    {
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "exposure": {
+        "value": 1.872,
+        "unit": "e-/A^2",
+        "rawRepresentation": "1.872 e-/A^2",
+        "provenance": "dose-log.txt:L12"
+      }
+    },
+    {
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "exposure": {
+        "value": 1.944,
+        "unit": "e-/A^2",
+        "rawRepresentation": "1.944 e-/A^2",
+        "provenance": "dose-log.txt:L13"
+      }
+    },
+    {
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "exposure": {
+        "value": 2.016,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.016 e-/A^2",
+        "provenance": "dose-log.txt:L14"
+      }
+    },
+    {
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "exposure": {
+        "value": 2.088,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.088 e-/A^2",
+        "provenance": "dose-log.txt:L15"
+      }
+    },
+    {
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "exposure": {
+        "value": 2.16,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.160 e-/A^2",
+        "provenance": "dose-log.txt:L16"
+      }
+    },
+    {
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "exposure": {
+        "value": 2.232,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.232 e-/A^2",
+        "provenance": "dose-log.txt:L17"
+      }
+    },
+    {
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "exposure": {
+        "value": 2.304,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.304 e-/A^2",
+        "provenance": "dose-log.txt:L18"
+      }
+    },
+    {
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "exposure": {
+        "value": 2.376,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.376 e-/A^2",
+        "provenance": "dose-log.txt:L19"
+      }
+    },
+    {
+      "frameId": "frame_19",
+      "sequenceIndex": 19,
+      "exposure": {
+        "value": 2.448,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.448 e-/A^2",
+        "provenance": "dose-log.txt:L20"
+      }
+    },
+    {
+      "frameId": "frame_20",
+      "sequenceIndex": 20,
+      "exposure": {
+        "value": 2.52,
+        "unit": "e-/A^2",
+        "rawRepresentation": "2.520 e-/A^2",
+        "provenance": "dose-log.txt:L21"
+      }
+    }
+  ],
+  "markers": [
+    {
+      "markerId": "marker_0000",
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 99.416,
+          "y": 74.897
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(99.42,74.90)px",
+        "provenance": "fiducials-F1.csv:L1"
+      }
+    },
+    {
+      "markerId": "marker_0001",
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 126.757,
+          "y": 52.083
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(126.76,52.08)px",
+        "provenance": "fiducials-F2.csv:L1"
+      }
+    },
+    {
+      "markerId": "marker_0002",
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 152.359,
+          "y": 75.927
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(152.36,75.93)px",
+        "provenance": "fiducials-F3.csv:L1"
+      }
+    },
+    {
+      "markerId": "marker_0003",
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 172.532,
+          "y": 110.885
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(172.53,110.88)px",
+        "provenance": "fiducials-F4.csv:L1"
+      }
+    },
+    {
+      "markerId": "marker_0004",
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 74.566,
+          "y": 167.759
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(74.57,167.76)px",
+        "provenance": "fiducials-F5.csv:L1"
+      }
+    },
+    {
+      "markerId": "marker_0005",
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 99.36,
+          "y": 209.834
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(99.36,209.83)px",
+        "provenance": "fiducials-F6.csv:L1"
+      }
+    },
+    {
+      "markerId": "marker_0006",
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 134.134,
+          "y": 204.957
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(134.13,204.96)px",
+        "provenance": "fiducials-F7.csv:L1"
+      }
+    },
+    {
+      "markerId": "marker_0007",
+      "frameId": "frame_00",
+      "sequenceIndex": 0,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 160.912,
+          "y": 179.979
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(160.91,179.98)px",
+        "provenance": "fiducials-F8.csv:L1"
+      }
+    },
+    {
+      "markerId": "marker_0008",
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 92.719,
+          "y": 73.473
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(92.72,73.47)px",
+        "provenance": "fiducials-F1.csv:L2"
+      }
+    },
+    {
+      "markerId": "marker_0009",
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 123.837,
+          "y": 51.462
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(123.84,51.46)px",
+        "provenance": "fiducials-F2.csv:L2"
+      }
+    },
+    {
+      "markerId": "marker_0010",
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 154.592,
+          "y": 76.401
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(154.59,76.40)px",
+        "provenance": "fiducials-F3.csv:L2"
+      }
+    },
+    {
+      "markerId": "marker_0011",
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 179.401,
+          "y": 112.345
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(179.40,112.34)px",
+        "provenance": "fiducials-F4.csv:L2"
+      }
+    },
+    {
+      "markerId": "marker_0012",
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 67.01,
+          "y": 166.153
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(67.01,166.15)px",
+        "provenance": "fiducials-F5.csv:L2"
+      }
+    },
+    {
+      "markerId": "marker_0013",
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 97.471,
+          "y": 209.432
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(97.47,209.43)px",
+        "provenance": "fiducials-F6.csv:L2"
+      }
+    },
+    {
+      "markerId": "marker_0014",
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 137.912,
+          "y": 205.76
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(137.91,205.76)px",
+        "provenance": "fiducials-F7.csv:L2"
+      }
+    },
+    {
+      "markerId": "marker_0015",
+      "frameId": "frame_01",
+      "sequenceIndex": 1,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 168.297,
+          "y": 181.548
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(168.30,181.55)px",
+        "provenance": "fiducials-F8.csv:L2"
+      }
+    },
+    {
+      "markerId": "marker_0016",
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 86.512,
+          "y": 72.154
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(86.51,72.15)px",
+        "provenance": "fiducials-F1.csv:L3"
+      }
+    },
+    {
+      "markerId": "marker_0017",
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 121.132,
+          "y": 50.887
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(121.13,50.89)px",
+        "provenance": "fiducials-F2.csv:L3"
+      }
+    },
+    {
+      "markerId": "marker_0018",
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 156.66,
+          "y": 76.841
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(156.66,76.84)px",
+        "provenance": "fiducials-F3.csv:L3"
+      }
+    },
+    {
+      "markerId": "marker_0019",
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 185.766,
+          "y": 113.698
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(185.77,113.70)px",
+        "provenance": "fiducials-F4.csv:L3"
+      }
+    },
+    {
+      "markerId": "marker_0020",
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 60.008,
+          "y": 164.665
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(60.01,164.66)px",
+        "provenance": "fiducials-F5.csv:L3"
+      }
+    },
+    {
+      "markerId": "marker_0021",
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 95.72,
+          "y": 209.06
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(95.72,209.06)px",
+        "provenance": "fiducials-F6.csv:L3"
+      }
+    },
+    {
+      "markerId": "marker_0022",
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 141.413,
+          "y": 206.504
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(141.41,206.50)px",
+        "provenance": "fiducials-F7.csv:L3"
+      }
+    },
+    {
+      "markerId": "marker_0023",
+      "frameId": "frame_02",
+      "sequenceIndex": 2,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 175.14,
+          "y": 183.003
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(175.14,183.00)px",
+        "provenance": "fiducials-F8.csv:L3"
+      }
+    },
+    {
+      "markerId": "marker_0024",
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 80.865,
+          "y": 70.954
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(80.87,70.95)px",
+        "provenance": "fiducials-F1.csv:L4"
+      }
+    },
+    {
+      "markerId": "marker_0025",
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 118.671,
+          "y": 50.364
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(118.67,50.36)px",
+        "provenance": "fiducials-F2.csv:L4"
+      }
+    },
+    {
+      "markerId": "marker_0026",
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 158.543,
+          "y": 77.241
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(158.54,77.24)px",
+        "provenance": "fiducials-F3.csv:L4"
+      }
+    },
+    {
+      "markerId": "marker_0027",
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 191.558,
+          "y": 114.929
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(191.56,114.93)px",
+        "provenance": "fiducials-F4.csv:L4"
+      }
+    },
+    {
+      "markerId": "marker_0028",
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 53.637,
+          "y": 163.311
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(53.64,163.31)px",
+        "provenance": "fiducials-F5.csv:L4"
+      }
+    },
+    {
+      "markerId": "marker_0029",
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 94.128,
+          "y": 208.722
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(94.13,208.72)px",
+        "provenance": "fiducials-F6.csv:L4"
+      }
+    },
+    {
+      "markerId": "marker_0030",
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 144.598,
+          "y": 207.181
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(144.60,207.18)px",
+        "provenance": "fiducials-F7.csv:L4"
+      }
+    },
+    {
+      "markerId": "marker_0031",
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 181.366,
+          "y": 184.326
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(181.37,184.33)px",
+        "provenance": "fiducials-F8.csv:L4"
+      }
+    },
+    {
+      "markerId": "marker_0032",
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 75.84,
+          "y": 69.885
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(75.84,69.89)px",
+        "provenance": "fiducials-F1.csv:L5"
+      }
+    },
+    {
+      "markerId": "marker_0033",
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 116.48,
+          "y": 49.898
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(116.48,49.90)px",
+        "provenance": "fiducials-F2.csv:L5"
+      }
+    },
+    {
+      "markerId": "marker_0034",
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 160.218,
+          "y": 77.597
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(160.22,77.60)px",
+        "provenance": "fiducials-F3.csv:L5"
+      }
+    },
+    {
+      "markerId": "marker_0035",
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 196.713,
+          "y": 116.024
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(196.71,116.02)px",
+        "provenance": "fiducials-F4.csv:L5"
+      }
+    },
+    {
+      "markerId": "marker_0036",
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 47.967,
+          "y": 162.105
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(47.97,162.11)px",
+        "provenance": "fiducials-F5.csv:L5"
+      }
+    },
+    {
+      "markerId": "marker_0037",
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 92.71,
+          "y": 208.42
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(92.71,208.42)px",
+        "provenance": "fiducials-F6.csv:L5"
+      }
+    },
+    {
+      "markerId": "marker_0038",
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 147.433,
+          "y": 207.784
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(147.43,207.78)px",
+        "provenance": "fiducials-F7.csv:L5"
+      }
+    },
+    {
+      "markerId": "marker_0039",
+      "frameId": "frame_04",
+      "sequenceIndex": 4,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 186.907,
+          "y": 185.504
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(186.91,185.50)px",
+        "provenance": "fiducials-F8.csv:L5"
+      }
+    },
+    {
+      "markerId": "marker_0040",
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 71.49,
+          "y": 68.961
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(71.49,68.96)px",
+        "provenance": "fiducials-F1.csv:L6"
+      }
+    },
+    {
+      "markerId": "marker_0041",
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 114.584,
+          "y": 49.495
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(114.58,49.50)px",
+        "provenance": "fiducials-F2.csv:L6"
+      }
+    },
+    {
+      "markerId": "marker_0042",
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 161.668,
+          "y": 77.905
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(161.67,77.91)px",
+        "provenance": "fiducials-F3.csv:L6"
+      }
+    },
+    {
+      "markerId": "marker_0043",
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 201.174,
+          "y": 116.973
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(201.17,116.97)px",
+        "provenance": "fiducials-F4.csv:L6"
+      }
+    },
+    {
+      "markerId": "marker_0044",
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 43.06,
+          "y": 161.062
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(43.06,161.06)px",
+        "provenance": "fiducials-F5.csv:L6"
+      }
+    },
+    {
+      "markerId": "marker_0045",
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 91.483,
+          "y": 208.159
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(91.48,208.16)px",
+        "provenance": "fiducials-F6.csv:L6"
+      }
+    },
+    {
+      "markerId": "marker_0046",
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 149.887,
+          "y": 208.305
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(149.89,208.31)px",
+        "provenance": "fiducials-F7.csv:L6"
+      }
+    },
+    {
+      "markerId": "marker_0047",
+      "frameId": "frame_05",
+      "sequenceIndex": 5,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 191.703,
+          "y": 186.523
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(191.70,186.52)px",
+        "provenance": "fiducials-F8.csv:L6"
+      }
+    },
+    {
+      "markerId": "marker_0048",
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 67.865,
+          "y": 68.19
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(67.86,68.19)px",
+        "provenance": "fiducials-F1.csv:L7"
+      }
+    },
+    {
+      "markerId": "marker_0049",
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 113.004,
+          "y": 49.159
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(113.00,49.16)px",
+        "provenance": "fiducials-F2.csv:L7"
+      }
+    },
+    {
+      "markerId": "marker_0050",
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 162.876,
+          "y": 78.162
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(162.88,78.16)px",
+        "provenance": "fiducials-F3.csv:L7"
+      }
+    },
+    {
+      "markerId": "marker_0051",
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 204.892,
+          "y": 117.763
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(204.89,117.76)px",
+        "provenance": "fiducials-F4.csv:L7"
+      }
+    },
+    {
+      "markerId": "marker_0052",
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 38.969,
+          "y": 160.193
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(38.97,160.19)px",
+        "provenance": "fiducials-F5.csv:L7"
+      }
+    },
+    {
+      "markerId": "marker_0053",
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 90.461,
+          "y": 207.942
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(90.46,207.94)px",
+        "provenance": "fiducials-F6.csv:L7"
+      }
+    },
+    {
+      "markerId": "marker_0054",
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 151.932,
+          "y": 208.74
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(151.93,208.74)px",
+        "provenance": "fiducials-F7.csv:L7"
+      }
+    },
+    {
+      "markerId": "marker_0055",
+      "frameId": "frame_06",
+      "sequenceIndex": 6,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 195.7,
+          "y": 187.373
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(195.70,187.37)px",
+        "provenance": "fiducials-F8.csv:L7"
+      }
+    },
+    {
+      "markerId": "marker_0056",
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 65.003,
+          "y": 67.582
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(65.00,67.58)px",
+        "provenance": "fiducials-F1.csv:L8"
+      }
+    },
+    {
+      "markerId": "marker_0057",
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 111.756,
+          "y": 48.894
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(111.76,48.89)px",
+        "provenance": "fiducials-F2.csv:L8"
+      }
+    },
+    {
+      "markerId": "marker_0058",
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 163.83,
+          "y": 78.365
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(163.83,78.36)px",
+        "provenance": "fiducials-F3.csv:L8"
+      }
+    },
+    {
+      "markerId": "marker_0059",
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 207.828,
+          "y": 118.387
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(207.83,118.39)px",
+        "provenance": "fiducials-F4.csv:L8"
+      }
+    },
+    {
+      "markerId": "marker_0060",
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 35.74,
+          "y": 159.507
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(35.74,159.51)px",
+        "provenance": "fiducials-F5.csv:L8"
+      }
+    },
+    {
+      "markerId": "marker_0061",
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 89.654,
+          "y": 207.771
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(89.65,207.77)px",
+        "provenance": "fiducials-F6.csv:L8"
+      }
+    },
+    {
+      "markerId": "marker_0062",
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 153.547,
+          "y": 209.083
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(153.55,209.08)px",
+        "provenance": "fiducials-F7.csv:L8"
+      }
+    },
+    {
+      "markerId": "marker_0063",
+      "frameId": "frame_07",
+      "sequenceIndex": 7,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 198.855,
+          "y": 188.044
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(198.86,188.04)px",
+        "provenance": "fiducials-F8.csv:L8"
+      }
+    },
+    {
+      "markerId": "marker_0064",
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 62.936,
+          "y": 67.142
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(62.94,67.14)px",
+        "provenance": "fiducials-F1.csv:L9"
+      }
+    },
+    {
+      "markerId": "marker_0065",
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 110.855,
+          "y": 48.703
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(110.86,48.70)px",
+        "provenance": "fiducials-F2.csv:L9"
+      }
+    },
+    {
+      "markerId": "marker_0066",
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 164.519,
+          "y": 78.511
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(164.52,78.51)px",
+        "provenance": "fiducials-F3.csv:L9"
+      }
+    },
+    {
+      "markerId": "marker_0067",
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 209.948,
+          "y": 118.838
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(209.95,118.84)px",
+        "provenance": "fiducials-F4.csv:L9"
+      }
+    },
+    {
+      "markerId": "marker_0068",
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 33.408,
+          "y": 159.011
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(33.41,159.01)px",
+        "provenance": "fiducials-F5.csv:L9"
+      }
+    },
+    {
+      "markerId": "marker_0069",
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 89.071,
+          "y": 207.647
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(89.07,207.65)px",
+        "provenance": "fiducials-F6.csv:L9"
+      }
+    },
+    {
+      "markerId": "marker_0070",
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 154.713,
+          "y": 209.331
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(154.71,209.33)px",
+        "provenance": "fiducials-F7.csv:L9"
+      }
+    },
+    {
+      "markerId": "marker_0071",
+      "frameId": "frame_08",
+      "sequenceIndex": 8,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 201.134,
+          "y": 188.528
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(201.13,188.53)px",
+        "provenance": "fiducials-F8.csv:L9"
+      }
+    },
+    {
+      "markerId": "marker_0072",
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 61.686,
+          "y": 66.877
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(61.69,66.88)px",
+        "provenance": "fiducials-F1.csv:L10"
+      }
+    },
+    {
+      "markerId": "marker_0073",
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 110.311,
+          "y": 48.587
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(110.31,48.59)px",
+        "provenance": "fiducials-F2.csv:L10"
+      }
+    },
+    {
+      "markerId": "marker_0074",
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 164.936,
+          "y": 78.6
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(164.94,78.60)px",
+        "provenance": "fiducials-F3.csv:L10"
+      }
+    },
+    {
+      "markerId": "marker_0075",
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 211.229,
+          "y": 119.11
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(211.23,119.11)px",
+        "provenance": "fiducials-F4.csv:L10"
+      }
+    },
+    {
+      "markerId": "marker_0076",
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 31.999,
+          "y": 158.711
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(32.00,158.71)px",
+        "provenance": "fiducials-F5.csv:L10"
+      }
+    },
+    {
+      "markerId": "marker_0077",
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 155.417,
+          "y": 209.481
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(155.42,209.48)px",
+        "provenance": "fiducials-F6.csv:L10"
+      }
+    },
+    {
+      "markerId": "marker_0078",
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 88.718,
+          "y": 207.572
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(88.72,207.57)px",
+        "provenance": "fiducials-F7.csv:L10"
+      }
+    },
+    {
+      "markerId": "marker_0079",
+      "frameId": "frame_09",
+      "sequenceIndex": 9,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 202.512,
+          "y": 188.821
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(202.51,188.82)px",
+        "provenance": "fiducials-F8.csv:L10"
+      }
+    },
+    {
+      "markerId": "marker_0080",
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 61.268,
+          "y": 66.788
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(61.27,66.79)px",
+        "provenance": "fiducials-F1.csv:L11"
+      }
+    },
+    {
+      "markerId": "marker_0081",
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 110.128,
+          "y": 48.548
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(110.13,48.55)px",
+        "provenance": "fiducials-F2.csv:L11"
+      }
+    },
+    {
+      "markerId": "marker_0082",
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 165.075,
+          "y": 78.629
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(165.07,78.63)px",
+        "provenance": "fiducials-F3.csv:L11"
+      }
+    },
+    {
+      "markerId": "marker_0083",
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 211.658,
+          "y": 119.201
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(211.66,119.20)px",
+        "provenance": "fiducials-F4.csv:L11"
+      }
+    },
+    {
+      "markerId": "marker_0084",
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 31.527,
+          "y": 158.611
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(31.53,158.61)px",
+        "provenance": "fiducials-F5.csv:L11"
+      }
+    },
+    {
+      "markerId": "marker_0085",
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 155.653,
+          "y": 209.531
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(155.65,209.53)px",
+        "provenance": "fiducials-F6.csv:L11"
+      }
+    },
+    {
+      "markerId": "marker_0086",
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 88.6,
+          "y": 207.547
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(88.60,207.55)px",
+        "provenance": "fiducials-F7.csv:L11"
+      }
+    },
+    {
+      "markerId": "marker_0087",
+      "frameId": "frame_10",
+      "sequenceIndex": 10,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 202.973,
+          "y": 188.919
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(202.97,188.92)px",
+        "provenance": "fiducials-F8.csv:L11"
+      }
+    },
+    {
+      "markerId": "marker_0088",
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 61.686,
+          "y": 66.877
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(61.69,66.88)px",
+        "provenance": "fiducials-F1.csv:L12"
+      }
+    },
+    {
+      "markerId": "marker_0089",
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 110.311,
+          "y": 48.587
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(110.31,48.59)px",
+        "provenance": "fiducials-F2.csv:L12"
+      }
+    },
+    {
+      "markerId": "marker_0090",
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 164.936,
+          "y": 78.6
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(164.94,78.60)px",
+        "provenance": "fiducials-F3.csv:L12"
+      }
+    },
+    {
+      "markerId": "marker_0091",
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 211.229,
+          "y": 119.11
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(211.23,119.11)px",
+        "provenance": "fiducials-F4.csv:L12"
+      }
+    },
+    {
+      "markerId": "marker_0092",
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 31.999,
+          "y": 158.711
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(32.00,158.71)px",
+        "provenance": "fiducials-F5.csv:L12"
+      }
+    },
+    {
+      "markerId": "marker_0093",
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 155.417,
+          "y": 209.481
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(155.42,209.48)px",
+        "provenance": "fiducials-F6.csv:L12"
+      }
+    },
+    {
+      "markerId": "marker_0094",
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 88.718,
+          "y": 207.572
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(88.72,207.57)px",
+        "provenance": "fiducials-F7.csv:L12"
+      }
+    },
+    {
+      "markerId": "marker_0095",
+      "frameId": "frame_11",
+      "sequenceIndex": 11,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 202.512,
+          "y": 188.821
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(202.51,188.82)px",
+        "provenance": "fiducials-F8.csv:L12"
+      }
+    },
+    {
+      "markerId": "marker_0096",
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 62.936,
+          "y": 67.142
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(62.94,67.14)px",
+        "provenance": "fiducials-F1.csv:L13"
+      }
+    },
+    {
+      "markerId": "marker_0097",
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 110.855,
+          "y": 48.703
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(110.86,48.70)px",
+        "provenance": "fiducials-F2.csv:L13"
+      }
+    },
+    {
+      "markerId": "marker_0098",
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 209.948,
+          "y": 118.838
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(209.95,118.84)px",
+        "provenance": "fiducials-F4.csv:L13"
+      }
+    },
+    {
+      "markerId": "marker_0099",
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 33.408,
+          "y": 159.011
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(33.41,159.01)px",
+        "provenance": "fiducials-F5.csv:L13"
+      }
+    },
+    {
+      "markerId": "marker_0100",
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 154.713,
+          "y": 209.331
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(154.71,209.33)px",
+        "provenance": "fiducials-F6.csv:L13"
+      }
+    },
+    {
+      "markerId": "marker_0101",
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 89.071,
+          "y": 207.647
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(89.07,207.65)px",
+        "provenance": "fiducials-F7.csv:L13"
+      }
+    },
+    {
+      "markerId": "marker_0102",
+      "frameId": "frame_12",
+      "sequenceIndex": 12,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 201.134,
+          "y": 188.528
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(201.13,188.53)px",
+        "provenance": "fiducials-F8.csv:L13"
+      }
+    },
+    {
+      "markerId": "marker_0103",
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 65.003,
+          "y": 67.582
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(65.00,67.58)px",
+        "provenance": "fiducials-F1.csv:L14"
+      }
+    },
+    {
+      "markerId": "marker_0104",
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 111.756,
+          "y": 48.894
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(111.76,48.89)px",
+        "provenance": "fiducials-F2.csv:L14"
+      }
+    },
+    {
+      "markerId": "marker_0105",
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 207.828,
+          "y": 118.387
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(207.83,118.39)px",
+        "provenance": "fiducials-F4.csv:L14"
+      }
+    },
+    {
+      "markerId": "marker_0106",
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 35.74,
+          "y": 159.507
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(35.74,159.51)px",
+        "provenance": "fiducials-F5.csv:L14"
+      }
+    },
+    {
+      "markerId": "marker_0107",
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 153.547,
+          "y": 209.083
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(153.55,209.08)px",
+        "provenance": "fiducials-F6.csv:L14"
+      }
+    },
+    {
+      "markerId": "marker_0108",
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 89.654,
+          "y": 207.771
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(89.65,207.77)px",
+        "provenance": "fiducials-F7.csv:L14"
+      }
+    },
+    {
+      "markerId": "marker_0109",
+      "frameId": "frame_13",
+      "sequenceIndex": 13,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 198.855,
+          "y": 188.044
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(198.86,188.04)px",
+        "provenance": "fiducials-F8.csv:L14"
+      }
+    },
+    {
+      "markerId": "marker_0110",
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 67.865,
+          "y": 68.19
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(67.86,68.19)px",
+        "provenance": "fiducials-F1.csv:L15"
+      }
+    },
+    {
+      "markerId": "marker_0111",
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 113.004,
+          "y": 49.159
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(113.00,49.16)px",
+        "provenance": "fiducials-F2.csv:L15"
+      }
+    },
+    {
+      "markerId": "marker_0112",
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 204.892,
+          "y": 117.763
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(204.89,117.76)px",
+        "provenance": "fiducials-F4.csv:L15"
+      }
+    },
+    {
+      "markerId": "marker_0113",
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 38.969,
+          "y": 160.193
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(38.97,160.19)px",
+        "provenance": "fiducials-F5.csv:L15"
+      }
+    },
+    {
+      "markerId": "marker_0114",
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 90.461,
+          "y": 207.942
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(90.46,207.94)px",
+        "provenance": "fiducials-F6.csv:L15"
+      }
+    },
+    {
+      "markerId": "marker_0115",
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 151.932,
+          "y": 208.74
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(151.93,208.74)px",
+        "provenance": "fiducials-F7.csv:L15"
+      }
+    },
+    {
+      "markerId": "marker_0116",
+      "frameId": "frame_14",
+      "sequenceIndex": 14,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 195.7,
+          "y": 187.373
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(195.70,187.37)px",
+        "provenance": "fiducials-F8.csv:L15"
+      }
+    },
+    {
+      "markerId": "marker_0117",
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 71.49,
+          "y": 68.961
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(71.49,68.96)px",
+        "provenance": "fiducials-F1.csv:L16"
+      }
+    },
+    {
+      "markerId": "marker_0118",
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 114.584,
+          "y": 49.495
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(114.58,49.50)px",
+        "provenance": "fiducials-F2.csv:L16"
+      }
+    },
+    {
+      "markerId": "marker_0119",
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 201.174,
+          "y": 116.973
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(201.17,116.97)px",
+        "provenance": "fiducials-F4.csv:L16"
+      }
+    },
+    {
+      "markerId": "marker_0120",
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 43.06,
+          "y": 161.062
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(43.06,161.06)px",
+        "provenance": "fiducials-F5.csv:L16"
+      }
+    },
+    {
+      "markerId": "marker_0121",
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 91.483,
+          "y": 208.159
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(91.48,208.16)px",
+        "provenance": "fiducials-F6.csv:L16"
+      }
+    },
+    {
+      "markerId": "marker_0122",
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 149.887,
+          "y": 208.305
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(149.89,208.31)px",
+        "provenance": "fiducials-F7.csv:L16"
+      }
+    },
+    {
+      "markerId": "marker_0123",
+      "frameId": "frame_15",
+      "sequenceIndex": 15,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 191.703,
+          "y": 186.523
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(191.70,186.52)px",
+        "provenance": "fiducials-F8.csv:L16"
+      }
+    },
+    {
+      "markerId": "marker_0124",
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 75.84,
+          "y": 69.885
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(75.84,69.89)px",
+        "provenance": "fiducials-F1.csv:L17"
+      }
+    },
+    {
+      "markerId": "marker_0125",
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 116.48,
+          "y": 49.898
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(116.48,49.90)px",
+        "provenance": "fiducials-F2.csv:L17"
+      }
+    },
+    {
+      "markerId": "marker_0126",
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 160.218,
+          "y": 77.597
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(160.22,77.60)px",
+        "provenance": "fiducials-F3.csv:L17"
+      }
+    },
+    {
+      "markerId": "marker_0127",
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 196.713,
+          "y": 116.024
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(196.71,116.02)px",
+        "provenance": "fiducials-F4.csv:L17"
+      }
+    },
+    {
+      "markerId": "marker_0128",
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 47.967,
+          "y": 162.105
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(47.97,162.11)px",
+        "provenance": "fiducials-F5.csv:L17"
+      }
+    },
+    {
+      "markerId": "marker_0129",
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 92.71,
+          "y": 208.42
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(92.71,208.42)px",
+        "provenance": "fiducials-F6.csv:L17"
+      }
+    },
+    {
+      "markerId": "marker_0130",
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 147.433,
+          "y": 207.784
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(147.43,207.78)px",
+        "provenance": "fiducials-F7.csv:L17"
+      }
+    },
+    {
+      "markerId": "marker_0131",
+      "frameId": "frame_16",
+      "sequenceIndex": 16,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 186.907,
+          "y": 185.504
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(186.91,185.50)px",
+        "provenance": "fiducials-F8.csv:L17"
+      }
+    },
+    {
+      "markerId": "marker_0132",
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 80.865,
+          "y": 70.954
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(80.87,70.95)px",
+        "provenance": "fiducials-F1.csv:L18"
+      }
+    },
+    {
+      "markerId": "marker_0133",
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 118.671,
+          "y": 50.364
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(118.67,50.36)px",
+        "provenance": "fiducials-F2.csv:L18"
+      }
+    },
+    {
+      "markerId": "marker_0134",
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 158.543,
+          "y": 77.241
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(158.54,77.24)px",
+        "provenance": "fiducials-F3.csv:L18"
+      }
+    },
+    {
+      "markerId": "marker_0135",
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 191.558,
+          "y": 114.929
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(191.56,114.93)px",
+        "provenance": "fiducials-F4.csv:L18"
+      }
+    },
+    {
+      "markerId": "marker_0136",
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 53.637,
+          "y": 163.311
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(53.64,163.31)px",
+        "provenance": "fiducials-F5.csv:L18"
+      }
+    },
+    {
+      "markerId": "marker_0137",
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 94.128,
+          "y": 208.722
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(94.13,208.72)px",
+        "provenance": "fiducials-F6.csv:L18"
+      }
+    },
+    {
+      "markerId": "marker_0138",
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 144.598,
+          "y": 207.181
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(144.60,207.18)px",
+        "provenance": "fiducials-F7.csv:L18"
+      }
+    },
+    {
+      "markerId": "marker_0139",
+      "frameId": "frame_17",
+      "sequenceIndex": 17,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 181.366,
+          "y": 184.326
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(181.37,184.33)px",
+        "provenance": "fiducials-F8.csv:L18"
+      }
+    },
+    {
+      "markerId": "marker_0140",
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "trackId": "F1",
+      "rawLabel": "F1",
+      "coordinate": {
+        "value": {
+          "x": 86.512,
+          "y": 72.154
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(86.51,72.15)px",
+        "provenance": "fiducials-F1.csv:L19"
+      }
+    },
+    {
+      "markerId": "marker_0141",
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "trackId": "F2",
+      "rawLabel": "F2",
+      "coordinate": {
+        "value": {
+          "x": 121.132,
+          "y": 50.887
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(121.13,50.89)px",
+        "provenance": "fiducials-F2.csv:L19"
+      }
+    },
+    {
+      "markerId": "marker_0142",
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "trackId": "F3",
+      "rawLabel": "F3",
+      "coordinate": {
+        "value": {
+          "x": 156.66,
+          "y": 76.841
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(156.66,76.84)px",
+        "provenance": "fiducials-F3.csv:L19"
+      }
+    },
+    {
+      "markerId": "marker_0143",
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "trackId": "F4",
+      "rawLabel": "F4",
+      "coordinate": {
+        "value": {
+          "x": 185.766,
+          "y": 113.698
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(185.77,113.70)px",
+        "provenance": "fiducials-F4.csv:L19"
+      }
+    },
+    {
+      "markerId": "marker_0144",
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "trackId": "F5",
+      "rawLabel": "F5",
+      "coordinate": {
+        "value": {
+          "x": 60.008,
+          "y": 164.665
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(60.01,164.66)px",
+        "provenance": "fiducials-F5.csv:L19"
+      }
+    },
+    {
+      "markerId": "marker_0145",
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "trackId": "F6",
+      "rawLabel": "F6",
+      "coordinate": {
+        "value": {
+          "x": 95.72,
+          "y": 209.06
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(95.72,209.06)px",
+        "provenance": "fiducials-F6.csv:L19"
+      }
+    },
+    {
+      "markerId": "marker_0146",
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "trackId": "F7",
+      "rawLabel": "F7",
+      "coordinate": {
+        "value": {
+          "x": 141.413,
+          "y": 206.504
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(141.41,206.50)px",
+        "provenance": "fiducials-F7.csv:L19"
+      }
+    },
+    {
+      "markerId": "marker_0147",
+      "frameId": "frame_18",
+      "sequenceIndex": 18,
+      "trackId": "F8",
+      "rawLabel": "F8",
+      "coordinate": {
+        "value": {
+          "x": 175.14,
+          "y": 183.003
+        },
+        "unit": "pixel",
+        "coordinateFrame": "image-pixel",
+        "rawRepresentation": "(175.14,183.00)px",
+        "provenance": "fiducials-F8.csv:L19"
+      }
+    }
+  ],
+  "trackGaps": [
+    {
+      "trackId": "F3",
+      "fromSequenceIndex": 12,
+      "toSequenceIndex": 15,
+      "reason": "高倾角下标记点与金颗粒重叠，自动跟踪丢失",
+      "provenance": "track-gap-review.md#F3"
+    }
+  ],
+  "manualExclusions": [
+    {
+      "frameId": "frame_03",
+      "sequenceIndex": 3,
+      "reason": "载网跳动导致整体漂移且有条带污染，电镜操作员建议排除",
+      "provenance": "operator-notes.txt#L7"
+    }
+  ],
+  "identitySwapQuestion": {
+    "questionId": "swap_F6_F7",
+    "trackIdA": "F6",
+    "trackIdB": "F7",
+    "fromSequenceIndex": 9,
+    "toSequenceIndex": 13,
+    "evidence": "该倾角区间 F6/F7 投影交叉，自动跟踪标签互换，需要裁定"
+  },
+  "missingHighTilts": {
+    "sequenceIndices": [
+      19,
+      20
+    ],
+    "reason": "dose-symmetric 采集末端高倾角帧缺失"
+  }
+}
