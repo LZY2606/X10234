@@ -1,0 +1,23 @@
+{
+  "name": "tilt-align-review",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "电子断层倾转序列配准审阅工具（含反例档案与离线案例包）",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "casepack:build": "node scripts/build-casepack.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "jsdom": "^26.1.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.4"
+  }
+}
