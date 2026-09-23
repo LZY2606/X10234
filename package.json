@@ -1,0 +1,20 @@
+{
+  "name": "tilt-series-registration-review-room",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支的版本化审阅工具",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit",
+    "test": "vitest",
+    "generate:case-pack": "node --experimental-strip-types tools/generate-case-pack.ts"
+  },
+  "dependencies": {
+    "@types/node": "^22.20.4",
+    "happy-dom": "^15.11.7",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
+  }
+}
