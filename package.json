@@ -1,0 +1,19 @@
+{
+  "name": "tilt-frame-stitching-room",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "电子断层倾转序列配准审阅工具：倾转帧拼合室",
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.2"
+  }
+}
