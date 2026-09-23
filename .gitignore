@@ -34,3 +34,5 @@ coverage/
 .vite/
 .turbo/
 *.tsbuildinfo
+.tilt-dev.db
+.tilt-dev.db-*
