@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>倾转帧拼合室 · 配准审阅</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101418; --panel:#181f26; --line:#2a3540; --fg:#d7e0e8; --dim:#8ba0b3; --acc:#4fc3f7; --warn:#ffb74d; --bad:#ef5350; --ok:#81c784; }
+    * { box-sizing: border-box; }
+    body { margin:0; font: 13px/1.5 "SF Pro Text", "PingFang SC", sans-serif; background:var(--bg); color:var(--fg); }
+    header { display:flex; gap:8px; align-items:center; padding:10px 14px; border-bottom:1px solid var(--line); position:sticky; top:0; background:var(--bg); z-index:5; }
+    header h1 { font-size:15px; margin:0 12px 0 0; }
+    button { background:#22303c; color:var(--fg); border:1px solid var(--line); border-radius:6px; padding:5px 10px; cursor:pointer; }
+    button:hover { border-color:var(--acc); }
+    button.primary { background:#0d47a1; border-color:#1565c0; }
+    main { display:grid; grid-template-columns: 1fr 1fr; gap:10px; padding:10px 14px; }
+    section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:10px; }
+    section h2 { font-size:13px; margin:0 0 8px; color:var(--acc); }
+    .wide { grid-column: 1 / -1; }
+    canvas { background:#000; border:1px solid var(--line); border-radius:4px; image-rendering: pixelated; }
+    .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+    .dim { color:var(--dim); }
+    .tag { display:inline-block; padding:1px 6px; border-radius:4px; font-size:11px; margin-right:4px; }
+    .tag.ok { background:#1b5e20; } .tag.warn { background:#7a5400; } .tag.bad { background:#8e1616; } .tag.info { background:#0d47a1; }
+    table { border-collapse:collapse; width:100%; font-size:12px; }
+    td, th { border-bottom:1px solid var(--line); padding:3px 6px; text-align:left; }
+    tr.sel { outline:1px solid var(--acc); }
+    #conflict-banner { display:none; background:#4a1520; border:1px solid var(--bad); border-radius:8px; padding:10px; margin:10px 14px 0; white-space:pre-wrap; }
+    #history-banner { display:none; background:#3a2c00; border:1px solid var(--warn); border-radius:8px; padding:8px 10px; margin:10px 14px 0; }
+    .events { max-height:260px; overflow:auto; font-size:12px; }
+    .events div { padding:2px 4px; border-bottom:1px solid var(--line); cursor:pointer; }
+    .events div:hover { background:#22303c; }
+    input, select { background:#0d1114; color:var(--fg); border:1px solid var(--line); border-radius:4px; padding:4px 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>倾转帧拼合室 · 电镜 tilt-series 配准审阅</h1>
+    <button id="load-casepack" class="primary">载入仓库内示例</button>
+    <button id="export-archive">导出档案</button>
+    <button id="reimport-archive">删除本地库并重导入</button>
+    <button id="open-second">打开第二窗口</button>
+    <span class="dim" id="head-info"></span>
+  </header>
+  <div id="conflict-banner"></div>
+  <div id="history-banner"></div>
+  <main>
+    <section>
+      <h2>帧叠影 + 倾转轴（轴线自由拟合，不固定于图像中心）</h2>
+      <div class="row">
+        <label>帧 <input id="frame-slider" type="range" min="0" max="40" value="20" style="width:180px"></label>
+        <span id="frame-info" class="dim"></span>
+      </div>
+      <canvas id="overlay" width="384" height="384"></canvas>
+      <div id="axis-info" class="dim"></div>
+    </section>
+    <section>
+      <h2>fiducial 轨迹（可断裂 · 可身份交换）</h2>
+      <div id="tracks"></div>
+    </section>
+    <section>
+      <h2>每帧残差</h2>
+      <canvas id="residuals" width="560" height="180"></canvas>
+    </section>
+    <section>
+      <h2>候选与差分（相同有效点集才可比较）</h2>
+      <div id="candidates"></div>
+      <div id="candidate-diff"></div>
+    </section>
+    <section>
+      <h2>裁定（生成事件 · 可撤销 · 可锁定供重建引用）</h2>
+      <div class="row">
+        <select id="branch-select"></select>
+        <input id="reason" placeholder="裁定理由" size="28" />
+        <button id="accept-btn">采纳</button>
+        <button id="reject-btn">否定</button>
+        <button id="undo-btn">撤销上一裁定</button>
+        <button id="lock-btn" class="primary">锁定此配准</button>
+      </div>
+      <div id="adjudications"></div>
+      <div id="locks"></div>
+    </section>
+    <section>
+      <h2>诊断（机器可读取事件）</h2>
+      <div id="diagnostics" class="events"></div>
+    </section>
+    <section class="wide">
+      <h2>历史（点击事件回到当时的依赖版本与可见结论）</h2>
+      <div id="events" class="events"></div>
+    </section>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

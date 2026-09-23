@@ -1,0 +1,21 @@
+{
+  "scenarioId": "track-identity-swap",
+  "title": "轨迹身份交换",
+  "rule": "fiducial 轨迹可断裂且可能身份交换",
+  "minimal": {
+    "swap": {
+      "a": "trk-05",
+      "b": "trk-10",
+      "atFrame": 24
+    },
+    "note": "trk-05 在 frame 24 结束、trk-10 从 25 接续同一颗珠子"
+  },
+  "combined": {
+    "swap": {
+      "a": "trk-05",
+      "b": "trk-10",
+      "atFrame": 24
+    },
+    "plusScenario": "axis-eccentric"
+  }
+}

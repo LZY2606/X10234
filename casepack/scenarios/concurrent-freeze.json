@@ -1,0 +1,19 @@
+{
+  "scenarioId": "concurrent-freeze",
+  "title": "并发冻结",
+  "rule": "两个窗口同时锁定同一分支时，后提交者必须看到版本冲突及双方差异",
+  "minimal": {
+    "actors": [
+      "reviewer-a",
+      "reviewer-b"
+    ],
+    "note": "两人基于同一 head 各自提交锁定"
+  },
+  "combined": {
+    "actors": [
+      "reviewer-a",
+      "reviewer-b"
+    ],
+    "plusScenario": "multi-solution"
+  }
+}

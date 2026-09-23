@@ -1,0 +1,74 @@
+{
+  "packId": "tilt-joining-room/em-tilt-series-alignment",
+  "title": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支",
+  "geometry": {
+    "width": 48,
+    "height": 48,
+    "center": [
+      24,
+      24
+    ],
+    "baselineAxis": {
+      "angleDeg": -12,
+      "offsetPx": 6.2
+    }
+  },
+  "tilts": [
+    -60,
+    -57,
+    -54,
+    -51,
+    -48,
+    -45,
+    -42,
+    -39,
+    -36,
+    -33,
+    -30,
+    -27,
+    -24,
+    -21,
+    -18,
+    -15,
+    -12,
+    -9,
+    -6,
+    -3,
+    0,
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27,
+    30,
+    33,
+    36,
+    39,
+    42,
+    45,
+    48,
+    51,
+    54,
+    57,
+    60
+  ],
+  "baseline": [
+    "baseline/tilt-series.json",
+    "baseline/fiducials.json",
+    "baseline/exclusions.json"
+  ],
+  "scenarios": [
+    "scenarios/axis-eccentric.json",
+    "scenarios/track-identity-swap.json",
+    "scenarios/missing-high-tilt.json",
+    "scenarios/bad-frame-exclusion.json",
+    "scenarios/local-deform-overfit.json",
+    "scenarios/multi-solution.json",
+    "scenarios/concurrent-freeze.json"
+  ],
+  "replay": "replay.json"
+}

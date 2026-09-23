@@ -1,0 +1,5020 @@
+{
+  "kind": "fiducial-tracks",
+  "trackSetId": "FT-2026-0919-em",
+  "tracklets": [
+    {
+      "trackletId": "trk-01",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "29.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.44 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "29.75 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.26 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "29.96 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.72 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "29.65 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.49 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "29.65 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.17 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "29.66 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.57 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "29.52 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.59 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "29.73 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.38 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "29.29 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.73 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "29.50 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.27 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "29.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.71 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "29.88 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.63 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "30.57 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.29 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "30.28 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.11 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "29.49 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.29 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "29.31 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.52 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "29.69 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.22 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "29.55 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.52 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "29.72 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.14 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "29.65 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.64 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "30.06 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "30.13 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.21 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "29.70 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.46 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "30.49 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.00 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "30.65 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.47 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "30.65 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.04 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "30.87 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.45 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "32.05 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.90 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "30.98 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.20 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "30.94 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.29 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "31.55 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.20 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "31.38 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.12 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "31.73 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.10 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "32.04 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.85 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "31.82 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.06 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "32.27 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.61 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "32.33 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.67 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "32.64 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.10 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "32.75 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.89 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "33.20 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.81 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "33.20 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.40 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-02",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "19.33 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.21 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "19.24 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.95 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "19.44 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.22 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "19.31 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.68 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "18.92 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.33 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "18.68 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.85 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "18.42 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.21 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "18.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.16 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "18.62 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.34 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "18.54 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.22 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "18.69 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.11 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "18.77 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.30 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "20.30 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.23 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "18.35 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.91 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "18.27 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.40 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "18.42 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "18.85 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.23 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "18.80 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.63 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "19.56 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.95 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "19.48 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.70 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "19.96 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.92 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "20.05 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.02 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "20.21 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.80 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "20.67 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "20.81 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.75 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "21.08 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.75 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "22.00 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.95 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "21.94 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.41 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "22.79 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "23.04 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.06 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "23.43 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.52 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "23.56 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "16.12 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "24.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.92 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "24.69 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.97 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "25.51 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.67 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "25.97 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.40 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "26.35 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.47 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "27.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.33 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "27.40 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "27.87 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.24 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "28.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.20 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-03",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "33.88 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.53 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "34.07 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.43 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "35.02 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "35.36 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.15 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "35.64 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.44 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "35.72 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.14 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "36.28 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.94 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "36.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.95 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "37.01 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.87 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "37.40 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.99 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "37.46 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.67 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "37.60 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.30 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "38.06 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.85 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "37.06 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.87 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "38.13 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.76 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "38.59 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.38 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "38.98 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.11 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "39.28 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.24 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "39.22 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "39.25 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.37 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "39.49 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.80 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "39.61 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.40 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "39.10 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.60 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "39.52 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.17 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "39.48 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "39.79 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.47 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "39.54 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.21 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "37.53 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.63 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "39.12 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.36 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "39.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.68 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "38.93 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.27 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "38.86 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.54 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "38.32 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.38 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "38.12 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.15 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "38.16 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "37.96 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.88 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "37.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.79 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "37.52 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.72 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "37.01 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "36.73 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.92 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "36.19 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.10 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-04",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "34.25 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "19.43 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "34.66 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "19.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "35.91 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "19.23 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "35.92 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.87 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "36.88 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "19.08 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "37.34 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "19.04 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "37.61 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "38.11 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.87 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "38.72 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.98 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "38.98 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.61 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "39.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "39.63 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.81 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "38.51 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "15.81 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "40.89 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.18 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "41.39 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.07 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "40.96 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.18 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "41.36 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.53 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "42.09 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.98 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "41.72 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.97 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "42.03 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.31 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "42.20 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.11 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "42.17 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.95 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "42.06 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.73 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "42.34 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.90 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "42.03 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.87 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "42.34 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.70 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "42.11 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.11 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "41.05 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "17.60 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "41.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.03 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "41.39 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.05 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "40.91 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.27 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "40.75 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.30 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "40.65 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.45 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "40.07 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.61 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "39.92 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.77 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "39.68 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.79 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "38.78 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.41 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "38.81 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "19.07 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "38.29 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "19.06 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "37.54 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.47 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "37.22 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "18.72 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-05",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "24.10 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "30.37 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "23.55 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "30.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "22.77 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "30.83 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "22.14 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.01 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "21.14 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.05 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "20.20 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.16 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "20.04 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.45 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "19.48 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.56 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "18.68 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.72 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "18.06 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.90 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "17.73 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.44 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "17.12 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.82 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "18.10 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.16 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "18.02 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.56 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "16.00 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.01 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "15.61 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.96 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "15.44 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.66 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "14.90 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.72 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "14.62 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.12 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "14.88 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.20 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "14.36 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.63 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "14.44 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.34 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "14.68 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.90 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "14.47 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.46 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "14.44 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.63 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-06",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "24.55 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "35.90 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "23.82 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "23.35 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.35 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "22.80 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.37 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "22.11 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "21.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.08 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "21.16 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.87 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "20.85 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.68 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "20.29 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.03 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "19.99 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.09 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "19.47 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.24 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "19.66 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.07 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "18.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.65 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "19.63 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.37 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "18.82 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.61 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "18.44 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.23 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "18.39 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "18.40 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.48 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "18.33 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.98 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "18.57 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "18.53 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.68 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "18.59 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.60 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "18.56 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.30 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "18.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.04 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "18.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.41 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "18.88 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.33 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "19.55 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.36 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "20.96 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "35.27 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "20.09 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.36 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "20.36 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.03 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "20.73 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.73 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "21.31 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.88 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "21.47 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.65 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "21.99 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.97 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "22.62 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.43 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "23.51 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.75 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "23.64 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "24.03 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.14 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "24.89 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.07 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "25.46 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.13 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "26.32 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "35.81 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-07",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "30.33 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.67 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "31.86 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.48 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "32.49 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.60 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "32.78 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "33.91 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.23 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "34.46 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.81 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "35.61 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.68 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "36.51 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.80 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "37.11 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "37.59 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.49 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "38.06 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.29 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "38.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.21 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "37.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.47 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "39.70 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.90 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "40.64 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "41.15 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.91 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "41.21 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.70 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "41.68 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.09 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "42.08 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.43 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "42.50 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.17 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "43.02 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.46 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "43.10 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.20 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "43.16 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.25 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "43.22 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "43.57 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "7.99 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "43.75 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.02 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "43.46 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "7.94 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "40.97 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "5.38 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "43.87 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.24 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "43.29 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.09 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "43.03 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.11 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "43.01 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.13 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "43.01 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "7.95 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "42.91 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "7.99 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "42.24 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.77 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "41.92 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.33 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "41.51 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.59 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "41.12 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.52 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "40.64 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.17 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "40.16 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.53 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "39.41 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "8.90 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-08",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "18.27 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.33 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "18.00 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.34 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "17.77 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.53 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "17.02 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.28 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "16.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.93 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "16.13 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.07 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "15.67 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.12 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "15.14 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.82 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "14.76 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "14.82 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.09 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "14.43 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.92 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "13.95 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.30 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "15.20 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.99 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "15.31 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.92 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "14.24 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.48 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "14.10 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.29 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "14.12 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.39 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "14.27 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.37 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "15.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.93 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "15.09 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "34.15 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "15.63 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.80 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "16.13 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "16.45 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.71 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "17.13 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.38 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "17.25 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.61 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "18.40 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.30 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "18.76 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.35 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "19.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.92 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "20.37 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "33.09 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "20.63 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.86 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "21.97 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.09 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "22.53 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.45 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "23.31 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.33 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "24.05 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.11 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "25.27 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "32.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "25.87 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "27.15 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.80 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "27.54 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "31.35 px",
+            "basis": "image"
+          }
+        }
+      ],
+      "gapAfter": {
+        "frames": [
+          18,
+          19,
+          20
+        ],
+        "reason": "高倾角下标记点被冰染遮挡"
+      }
+    },
+    {
+      "trackletId": "trk-09",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "35.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.83 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "36.02 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.92 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "36.50 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.08 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "36.98 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.89 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "37.15 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "37.37 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.76 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "38.04 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.58 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "37.91 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.27 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "38.26 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "38.66 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.02 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "39.24 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.38 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "39.46 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "41.55 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "35.52 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "40.31 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.24 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "40.57 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.76 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "40.50 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.03 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "41.03 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.93 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "40.45 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.61 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "41.15 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.45 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "41.47 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.80 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "41.27 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.68 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "41.30 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.54 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "41.63 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.55 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "41.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "41.53 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.78 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "41.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.56 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "41.94 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.59 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "41.07 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.55 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "41.91 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "41.79 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.80 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "41.78 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.43 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "41.46 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.71 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "41.44 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.69 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "41.34 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.64 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "41.07 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.88 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "40.69 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.51 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "40.49 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.88 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "40.40 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.56 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "40.02 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.75 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "39.95 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "36.75 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "39.44 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "37.15 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-10",
+      "points": [
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "32.56 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.37 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "32.54 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.85 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "32.36 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.66 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "32.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.66 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "32.80 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.74 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "32.35 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.58 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "32.50 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.84 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "32.34 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.78 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "32.26 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.75 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "31.91 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.27 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "31.63 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.79 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "32.00 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.34 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "31.16 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.09 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "31.26 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "10.39 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "31.07 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.91 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "31.20 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "9.99 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-11",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "34.52 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.31 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "35.05 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.86 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "35.05 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.04 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "34.97 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.06 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "35.04 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.67 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "35.35 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.17 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "35.19 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.94 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "35.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.99 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "35.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.75 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "35.27 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.78 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "35.55 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.91 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "35.47 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.92 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "35.96 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "23.91 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "35.98 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "27.93 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "35.12 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.26 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "35.23 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.42 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "34.96 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.04 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "35.25 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.04 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "34.99 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.80 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "34.72 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.37 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "34.51 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.25 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "34.39 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.25 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "34.49 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.85 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "34.53 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "25.87 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "34.05 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.22 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "33.75 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "33.52 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.36 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "32.42 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "28.36 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "33.14 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.10 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "32.94 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.71 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "33.04 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.38 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "32.67 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.55 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "32.46 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.73 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "32.58 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.62 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "32.16 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.76 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "31.96 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.49 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "31.39 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "27.02 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "31.43 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.89 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "31.37 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.44 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "30.74 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "27.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "30.70 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "26.98 px",
+            "basis": "image"
+          }
+        }
+      ]
+    },
+    {
+      "trackletId": "trk-12",
+      "points": [
+        {
+          "frameIndex": 0,
+          "x": {
+            "raw": "40.08 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.19 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 1,
+          "x": {
+            "raw": "40.47 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.39 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 2,
+          "x": {
+            "raw": "40.80 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.30 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 3,
+          "x": {
+            "raw": "41.22 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.14 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 4,
+          "x": {
+            "raw": "41.60 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.06 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 5,
+          "x": {
+            "raw": "41.12 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.62 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 6,
+          "x": {
+            "raw": "41.49 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.68 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 7,
+          "x": {
+            "raw": "42.16 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.85 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 8,
+          "x": {
+            "raw": "42.09 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.40 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 9,
+          "x": {
+            "raw": "42.30 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.72 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 10,
+          "x": {
+            "raw": "42.34 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.67 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 11,
+          "x": {
+            "raw": "42.60 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.54 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 12,
+          "x": {
+            "raw": "44.03 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "42.28 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 13,
+          "x": {
+            "raw": "44.94 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "38.65 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 14,
+          "x": {
+            "raw": "43.12 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.48 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 15,
+          "x": {
+            "raw": "43.15 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.73 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 16,
+          "x": {
+            "raw": "42.50 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.56 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 17,
+          "x": {
+            "raw": "42.83 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.27 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 18,
+          "x": {
+            "raw": "42.67 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.16 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 19,
+          "x": {
+            "raw": "42.28 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.40 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 20,
+          "x": {
+            "raw": "42.41 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.46 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 21,
+          "x": {
+            "raw": "42.14 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.70 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 22,
+          "x": {
+            "raw": "42.63 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.67 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 23,
+          "x": {
+            "raw": "42.13 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.89 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 24,
+          "x": {
+            "raw": "42.18 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.08 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 25,
+          "x": {
+            "raw": "41.88 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.13 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 26,
+          "x": {
+            "raw": "41.26 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.75 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 27,
+          "x": {
+            "raw": "43.61 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "41.23 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 28,
+          "x": {
+            "raw": "40.91 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.67 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 29,
+          "x": {
+            "raw": "40.64 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "39.99 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 30,
+          "x": {
+            "raw": "40.54 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.28 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 31,
+          "x": {
+            "raw": "39.66 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.22 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 32,
+          "x": {
+            "raw": "39.47 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.72 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 33,
+          "x": {
+            "raw": "39.19 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.20 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 34,
+          "x": {
+            "raw": "38.56 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.32 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 35,
+          "x": {
+            "raw": "38.69 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.34 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 36,
+          "x": {
+            "raw": "37.97 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.98 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 37,
+          "x": {
+            "raw": "37.69 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.78 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 38,
+          "x": {
+            "raw": "37.18 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.66 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 39,
+          "x": {
+            "raw": "36.45 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.83 px",
+            "basis": "image"
+          }
+        },
+        {
+          "frameIndex": 40,
+          "x": {
+            "raw": "36.60 px",
+            "basis": "image"
+          },
+          "y": {
+            "raw": "40.97 px",
+            "basis": "image"
+          }
+        }
+      ]
+    }
+  ],
+  "trackingGaps": [
+    {
+      "trackletId": "trk-08",
+      "frames": [
+        18,
+        19,
+        20
+      ],
+      "reason": "高倾角下标记点被冰染遮挡"
+    }
+  ],
+  "identitySwapHints": [
+    {
+      "a": "trk-05",
+      "b": "trk-10",
+      "atFrame": 24
+    }
+  ]
+}

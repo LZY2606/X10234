@@ -1,0 +1,50 @@
+{
+  "packId": "tilt-joining-room/em-tilt-series-alignment",
+  "narrative": "电镜小组导入倾转序列、曝光剂量和 fiducial 点轨迹，比较刚体、局部形变与排除坏帧的配准方案",
+  "steps": [
+    {
+      "op": "import-baseline",
+      "sources": [
+        "baseline/tilt-series.json",
+        "baseline/fiducials.json",
+        "baseline/exclusions.json"
+      ]
+    },
+    {
+      "op": "interpret",
+      "branch": "main",
+      "models": [
+        "rigid",
+        "local-deformation",
+        "exclude-bad-frames"
+      ]
+    },
+    {
+      "op": "revise-params",
+      "note": "参数修订：像素尺度 0.42 → 0.43 nm/px（重新标定）",
+      "pixelSize": "0.43 nm/px"
+    },
+    {
+      "op": "amend-source",
+      "note": "局部源数据改动：补登 trk-08 缺口内 frame 19 的坐标，只影响依赖该轨迹的候选",
+      "trackletId": "trk-08",
+      "frameIndex": 19
+    },
+    {
+      "op": "conflicting-decisions",
+      "note": "互相冲突的人工决定：reviewer-a 采纳刚体候选，reviewer-b 在分支上否定它"
+    },
+    {
+      "op": "run-scenarios",
+      "scenarios": [
+        "axis-eccentric",
+        "track-identity-swap",
+        "missing-high-tilt",
+        "bad-frame-exclusion",
+        "local-deform-overfit",
+        "multi-solution",
+        "concurrent-freeze"
+      ]
+    }
+  ]
+}

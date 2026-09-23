@@ -1,0 +1,10 @@
+{
+  "kind": "manual-exclusions",
+  "exclusions": [
+    {
+      "frameIndex": 13,
+      "reason": "冰污染导致该帧衍射遮挡",
+      "decidedBy": "operator-chen"
+    }
+  ]
+}

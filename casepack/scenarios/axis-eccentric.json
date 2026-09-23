@@ -1,0 +1,19 @@
+{
+  "scenarioId": "axis-eccentric",
+  "title": "轴线偏心",
+  "rule": "倾转轴不能被默认固定在图像中心",
+  "minimal": {
+    "axisOverride": {
+      "angleDeg": -12,
+      "offsetPx": 18.5
+    },
+    "note": "轴线偏移 18.5 px，若拟合把轴固定在图像中心将产生系统性残差"
+  },
+  "combined": {
+    "axisOverride": {
+      "angleDeg": -12,
+      "offsetPx": 18.5
+    },
+    "plusScenario": "bad-frame-exclusion"
+  }
+}

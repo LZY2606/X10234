@@ -1,0 +1,21 @@
+{
+  "scenarioId": "missing-high-tilt",
+  "title": "缺失高倾角帧",
+  "rule": "缺失高倾角帧只影响依赖这些帧的结论",
+  "minimal": {
+    "dropFrames": [
+      38,
+      39,
+      40
+    ],
+    "note": "缺失 +54/+57/+60 度帧"
+  },
+  "combined": {
+    "dropFrames": [
+      38,
+      39,
+      40
+    ],
+    "plusScenario": "track-identity-swap"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "scenarioId": "multi-solution",
+  "title": "多解",
+  "rule": "无法唯一决定时保留全部合法候选",
+  "minimal": {
+    "degenerate": true,
+    "note": "轴线角 ± 两个极小值残差都在容差内，两个候选都必须保留"
+  },
+  "combined": {
+    "degenerate": true,
+    "plusScenario": "axis-eccentric"
+  }
+}

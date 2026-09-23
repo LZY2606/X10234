@@ -1,0 +1,21 @@
+{
+  "scenarioId": "bad-frame-exclusion",
+  "title": "坏帧排除",
+  "rule": "不用少帧换低残差：候选比较必须在相同有效点集上",
+  "minimal": {
+    "excludeFrames": [
+      12,
+      13,
+      27
+    ],
+    "note": "排除三帧后残差下降，但有效点集变小，比较无效"
+  },
+  "combined": {
+    "excludeFrames": [
+      12,
+      13,
+      27
+    ],
+    "plusScenario": "missing-high-tilt"
+  }
+}

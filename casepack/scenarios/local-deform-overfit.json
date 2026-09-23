@@ -1,0 +1,15 @@
+{
+  "scenarioId": "local-deform-overfit",
+  "title": "局部形变过拟合",
+  "rule": "局部形变自由度相对点数过高且残差收益低于噪声时判为过拟合",
+  "minimal": {
+    "model": "local-deformation",
+    "controlPointSpacingPx": 8,
+    "note": "48px 视场上 8px 控制点间距 → 过参数化"
+  },
+  "combined": {
+    "model": "local-deformation",
+    "controlPointSpacingPx": 8,
+    "plusScenario": "bad-frame-exclusion"
+  }
+}

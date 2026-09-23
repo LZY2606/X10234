@@ -1,0 +1,419 @@
+{
+  "kind": "tilt-series",
+  "seriesId": "TS-2026-0919-em",
+  "pixelSize": {
+    "raw": "0.42 nm/px"
+  },
+  "frames": [
+    {
+      "frameIndex": 0,
+      "tiltAngle": {
+        "raw": "-60.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.10 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-00.json"
+    },
+    {
+      "frameIndex": 1,
+      "tiltAngle": {
+        "raw": "-57.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.09 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-01.json"
+    },
+    {
+      "frameIndex": 2,
+      "tiltAngle": {
+        "raw": "-54.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.08 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-02.json"
+    },
+    {
+      "frameIndex": 3,
+      "tiltAngle": {
+        "raw": "-51.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.07 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-03.json"
+    },
+    {
+      "frameIndex": 4,
+      "tiltAngle": {
+        "raw": "-48.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.06 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-04.json"
+    },
+    {
+      "frameIndex": 5,
+      "tiltAngle": {
+        "raw": "-45.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.05 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-05.json"
+    },
+    {
+      "frameIndex": 6,
+      "tiltAngle": {
+        "raw": "-42.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.04 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-06.json"
+    },
+    {
+      "frameIndex": 7,
+      "tiltAngle": {
+        "raw": "-39.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.03 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-07.json"
+    },
+    {
+      "frameIndex": 8,
+      "tiltAngle": {
+        "raw": "-36.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.02 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-08.json"
+    },
+    {
+      "frameIndex": 9,
+      "tiltAngle": {
+        "raw": "-33.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.01 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-09.json"
+    },
+    {
+      "frameIndex": 10,
+      "tiltAngle": {
+        "raw": "-30.0 deg"
+      },
+      "exposureDose": {
+        "raw": "3.00 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-10.json"
+    },
+    {
+      "frameIndex": 11,
+      "tiltAngle": {
+        "raw": "-27.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.99 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-11.json"
+    },
+    {
+      "frameIndex": 12,
+      "tiltAngle": {
+        "raw": "-24.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.98 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-12.json"
+    },
+    {
+      "frameIndex": 13,
+      "tiltAngle": {
+        "raw": "-21.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.97 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-13.json"
+    },
+    {
+      "frameIndex": 14,
+      "tiltAngle": {
+        "raw": "-18.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.96 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-14.json"
+    },
+    {
+      "frameIndex": 15,
+      "tiltAngle": {
+        "raw": "-15.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.95 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-15.json"
+    },
+    {
+      "frameIndex": 16,
+      "tiltAngle": {
+        "raw": "-12.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.94 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-16.json"
+    },
+    {
+      "frameIndex": 17,
+      "tiltAngle": {
+        "raw": "-9.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.93 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-17.json"
+    },
+    {
+      "frameIndex": 18,
+      "tiltAngle": {
+        "raw": "-6.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.92 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-18.json"
+    },
+    {
+      "frameIndex": 19,
+      "tiltAngle": {
+        "raw": "-3.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.91 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-19.json"
+    },
+    {
+      "frameIndex": 20,
+      "tiltAngle": {
+        "raw": "0.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.90 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-20.json"
+    },
+    {
+      "frameIndex": 21,
+      "tiltAngle": {
+        "raw": "3.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.89 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-21.json"
+    },
+    {
+      "frameIndex": 22,
+      "tiltAngle": {
+        "raw": "6.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.88 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-22.json"
+    },
+    {
+      "frameIndex": 23,
+      "tiltAngle": {
+        "raw": "9.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.87 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-23.json"
+    },
+    {
+      "frameIndex": 24,
+      "tiltAngle": {
+        "raw": "12.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.86 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-24.json"
+    },
+    {
+      "frameIndex": 25,
+      "tiltAngle": {
+        "raw": "15.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.85 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-25.json"
+    },
+    {
+      "frameIndex": 26,
+      "tiltAngle": {
+        "raw": "18.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.84 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-26.json"
+    },
+    {
+      "frameIndex": 27,
+      "tiltAngle": {
+        "raw": "21.0 deg"
+      },
+      "exposureDose": {
+        "raw": "1.9e2 e-/sqA"
+      },
+      "imageRef": "baseline/frames/frame-27.json"
+    },
+    {
+      "frameIndex": 28,
+      "tiltAngle": {
+        "raw": "24.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.82 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-28.json"
+    },
+    {
+      "frameIndex": 29,
+      "tiltAngle": {
+        "raw": "27.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.81 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-29.json"
+    },
+    {
+      "frameIndex": 30,
+      "tiltAngle": {
+        "raw": "30.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.80 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-30.json"
+    },
+    {
+      "frameIndex": 31,
+      "tiltAngle": {
+        "raw": "33.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.79 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-31.json"
+    },
+    {
+      "frameIndex": 32,
+      "tiltAngle": {
+        "raw": "36.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.78 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-32.json"
+    },
+    {
+      "frameIndex": 33,
+      "tiltAngle": {
+        "raw": "39.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.77 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-33.json"
+    },
+    {
+      "frameIndex": 34,
+      "tiltAngle": {
+        "raw": "42.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.76 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-34.json"
+    },
+    {
+      "frameIndex": 35,
+      "tiltAngle": {
+        "raw": "45.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.75 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-35.json"
+    },
+    {
+      "frameIndex": 36,
+      "tiltAngle": {
+        "raw": "48.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.74 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-36.json"
+    },
+    {
+      "frameIndex": 37,
+      "tiltAngle": {
+        "raw": "51.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.73 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-37.json"
+    },
+    {
+      "frameIndex": 38,
+      "tiltAngle": {
+        "raw": "54.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.72 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-38.json"
+    },
+    {
+      "frameIndex": 39,
+      "tiltAngle": {
+        "raw": "57.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.71 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-39.json"
+    },
+    {
+      "frameIndex": 40,
+      "tiltAngle": {
+        "raw": "60.0 deg"
+      },
+      "exposureDose": {
+        "raw": "2.70 e-/A2"
+      },
+      "imageRef": "baseline/frames/frame-40.json"
+    }
+  ]
+}
