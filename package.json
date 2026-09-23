@@ -1,0 +1,22 @@
+{
+  "name": "tilt-room",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支审阅工具",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5349 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "test": "tsc --noEmit && vitest run",
+    "gen:pack": "node --experimental-strip-types tools/gen-pack.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8",
+    "playwright-core": "^1.49.0",
+    "@types/node": "^22.10.2",
+    "jsdom": "^25.0.1"
+  }
+}
