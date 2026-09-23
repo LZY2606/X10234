@@ -1,0 +1,22 @@
+{
+  "name": "tilt-series-alignment-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支审阅工具",
+  "scripts": {
+    "build:cases": "tsx scripts/build-cases.ts",
+    "dev": "tsx src/server/main.ts",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.5",
+    "@types/node": "^22.9.0"
+  }
+}
