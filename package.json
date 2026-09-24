@@ -1,0 +1,32 @@
+{
+  "name": "tilt-series-review",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "电子断层倾转序列配准审阅工具：倾转帧拼合室",
+  "scripts": {
+    "dev": "tsx src/server/index.ts",
+    "test": "vitest run",
+    "build": "vite build",
+    "tsc": "tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "playwright-chromium": "^1.48.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  }
+}
