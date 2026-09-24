@@ -1,0 +1,11 @@
+{
+  "manualExclusions": [
+    {
+      "frameId": "frame_p040",
+      "decision": "exclude",
+      "reason": "motion-blur",
+      "decidedBy": "em-operator-li",
+      "decidedAt": "2026-09-12T09:40:00+09:00"
+    }
+  ]
+}

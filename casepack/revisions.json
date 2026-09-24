@@ -1,0 +1,39 @@
+{
+  "narrative": "初始导入后：一次参数修订、一次只影响局部依赖的源数据改动、一次互相冲突的人工决定",
+  "parameterRevision": {
+    "entity": "alignment_params",
+    "change": {
+      "axisPrior": {
+        "mode": "free",
+        "searchRangePx": 6
+      }
+    },
+    "rationale": "轴线偏心诊断显示倾转轴不能默认固定在图像中心，放开轴线先验",
+    "revisedBy": "em-operator-li"
+  },
+  "sourceChange": {
+    "entity": "traj_f01",
+    "frameId": "frame_m020",
+    "delta": {
+      "x": 0.8,
+      "y": -0.5,
+      "unit": "pixel"
+    },
+    "reason": "人工重挑标记点，修正挑点误差；只应使依赖 traj_f01 的结论失效",
+    "revisedBy": "em-operator-li"
+  },
+  "conflictingDecisions": [
+    {
+      "reviewer": "reviewer-a",
+      "frameId": "frame_p020",
+      "decision": "exclude",
+      "reason": "多条轨迹在此帧同时丢失，信噪比不足"
+    },
+    {
+      "reviewer": "reviewer-b",
+      "frameId": "frame_p020",
+      "decision": "keep",
+      "reason": "缺口可由相邻帧插值补足，排除会损失有效点集"
+    }
+  ]
+}

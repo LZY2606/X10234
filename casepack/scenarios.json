@@ -1,0 +1,155 @@
+{
+  "note": "七个反例情形：每个保存一个最小输入与一个组合输入；共享原始片段只存一份不可变内容",
+  "scenarios": [
+    {
+      "name": "axis_eccentricity",
+      "title": "轴线偏心",
+      "minimal": {
+        "fixAxisAtCenter": true
+      },
+      "combined": {
+        "fixAxisAtCenter": true,
+        "doseWeighting": true
+      },
+      "expect": [
+        "axis_eccentricity"
+      ]
+    },
+    {
+      "name": "trajectory_identity_swap",
+      "title": "轨迹身份交换",
+      "minimal": {
+        "trajectories": [
+          "traj_f03",
+          "traj_f04"
+        ]
+      },
+      "combined": {
+        "trajectories": [
+          "traj_f03",
+          "traj_f04"
+        ],
+        "includeGaps": true
+      },
+      "expect": [
+        "trajectory_identity_swap"
+      ]
+    },
+    {
+      "name": "missing_high_tilt",
+      "title": "缺失高倾角帧",
+      "minimal": {
+        "dropFrames": [
+          "frame_m060",
+          "frame_p060"
+        ]
+      },
+      "combined": {
+        "dropFrames": [
+          "frame_m060",
+          "frame_p060"
+        ],
+        "fixAxisAtCenter": true
+      },
+      "expect": [
+        "missing_high_tilt"
+      ]
+    },
+    {
+      "name": "bad_frame_exclusion",
+      "title": "坏帧排除",
+      "minimal": {
+        "excludeFrames": [
+          "frame_p040"
+        ]
+      },
+      "combined": {
+        "excludeFrames": [
+          "frame_p040"
+        ],
+        "trajectories": [
+          "traj_f03",
+          "traj_f04"
+        ]
+      },
+      "expect": [
+        "candidate_comparison"
+      ]
+    },
+    {
+      "name": "local_deformation_overfit",
+      "title": "局部形变过拟合",
+      "minimal": {
+        "trajectories": [
+          "traj_f01",
+          "traj_f03",
+          "traj_f05"
+        ],
+        "model": "local-deformation"
+      },
+      "combined": {
+        "trajectories": [
+          "traj_f01",
+          "traj_f03",
+          "traj_f05"
+        ],
+        "model": "local-deformation",
+        "excludeFrames": [
+          "frame_p040"
+        ]
+      },
+      "expect": [
+        "local_deformation_overfit"
+      ]
+    },
+    {
+      "name": "multiple_solutions",
+      "title": "多解",
+      "minimal": {
+        "dropFrames": [
+          "frame_m060",
+          "frame_p060",
+          "frame_m040",
+          "frame_p040"
+        ],
+        "trajectories": [
+          "traj_f01",
+          "traj_f05"
+        ]
+      },
+      "combined": {
+        "dropFrames": [
+          "frame_m060",
+          "frame_p060"
+        ],
+        "trajectories": [
+          "traj_f01",
+          "traj_f05"
+        ]
+      },
+      "expect": [
+        "multiple_solutions"
+      ]
+    },
+    {
+      "name": "concurrent_freeze",
+      "title": "并发冻结",
+      "minimal": {
+        "reviewers": [
+          "reviewer-a",
+          "reviewer-b"
+        ]
+      },
+      "combined": {
+        "reviewers": [
+          "reviewer-a",
+          "reviewer-b"
+        ],
+        "withLock": true
+      },
+      "expect": [
+        "version_conflict"
+      ]
+    }
+  ]
+}

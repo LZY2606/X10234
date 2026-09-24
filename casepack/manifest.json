@@ -1,0 +1,27 @@
+{
+  "packId": "tilt-frame-assembly-room",
+  "title": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支",
+  "packVersion": 1,
+  "coordinateBasis": {
+    "image": "image-pixel/top-left",
+    "tilt": "stage-goniometer/deg",
+    "length": "nm"
+  },
+  "files": {
+    "tiltSeries": "tilt-series.json",
+    "fiducials": "fiducials.json",
+    "exclusions": "exclusions.json",
+    "alignmentParams": "alignment-params.json",
+    "revisions": "revisions.json",
+    "scenarios": "scenarios.json"
+  },
+  "frames": [
+    "frames/frame_m060.json",
+    "frames/frame_m040.json",
+    "frames/frame_m020.json",
+    "frames/frame_p000.json",
+    "frames/frame_p020.json",
+    "frames/frame_p040.json",
+    "frames/frame_p060.json"
+  ]
+}

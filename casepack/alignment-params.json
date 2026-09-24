@@ -1,0 +1,22 @@
+{
+  "entity": "alignment_params",
+  "versionNote": "v1 默认倾转轴固定于图像中心（待检验的假设）",
+  "axisPrior": {
+    "mode": "fixed-at-image-center",
+    "imageCenter": {
+      "x": 11.5,
+      "y": 11.5,
+      "unit": "pixel"
+    }
+  },
+  "tiltAxisAzimuth": {
+    "value": 0,
+    "unit": "deg",
+    "basis": "image-frame"
+  },
+  "models": [
+    "rigid",
+    "local-deformation",
+    "exclude-bad-frames"
+  ]
+}
