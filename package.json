@@ -1,0 +1,20 @@
+{
+  "name": "tilt-chamber-review",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支复核工具",
+  "scripts": {
+    "dev": "tsx src/server/main.ts",
+    "test": "vitest",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "jsdom": "^25.0.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.3"
+  }
+}
