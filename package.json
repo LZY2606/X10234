@@ -1,0 +1,26 @@
+{
+  "name": "tilt-series-registration-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "电子断层倾转序列 fiducial 配准审阅工具：版本化来源、多候选裁定、失效范围、可复现案例包",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "build:case": "node scripts/build-case.mjs",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.6",
+    "playwright": "^1.59.0",
+    "typescript": "^5.9.0",
+    "vitest": "^4.0.0"
+  }
+}

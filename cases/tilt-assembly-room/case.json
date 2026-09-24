@@ -1,0 +1,1001 @@
+{
+  "schema": "tilt-assembly-room/case/v1",
+  "title": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支",
+  "coordinateBasis": "image_px_top_left",
+  "frameGeometry": {
+    "widthPx": 128,
+    "heightPx": 128
+  },
+  "assumedImageCenter": {
+    "x": 64,
+    "y": 64
+  },
+  "groundTruthNote": "仅供测试断言；应用层不读取此字段做计算",
+  "groundTruth": {
+    "axis": {
+      "pivotX": 78,
+      "pivotY": 60,
+      "angleDeg": 6
+    },
+    "markerSwap": [
+      "m2",
+      "m3"
+    ],
+    "swapAfterAngleDeg": -15,
+    "badFrame": "f045"
+  },
+  "frames": [
+    {
+      "frameId": "fm60",
+      "index": 0,
+      "angle": -60,
+      "file": "frames/fm60.pgm",
+      "sha256": "55557b184ff3df6bb1a1811651448af12560e453559bf8a57f235717b1e0fd98",
+      "byteLength": 16399
+    },
+    {
+      "frameId": "fm45",
+      "index": 1,
+      "angle": -45,
+      "file": "frames/fm45.pgm",
+      "sha256": "951e253941d44dcb898ca641bbed3aa3dda8e7de0fe7cf7f3c5dca2169eddd6d",
+      "byteLength": 16399
+    },
+    {
+      "frameId": "fm30",
+      "index": 2,
+      "angle": -30,
+      "file": "frames/fm30.pgm",
+      "sha256": "b8ae04c1b209a6490ce0e88ae78cb4c63bf8ee67aa692166c2f2b31bdeca6be3",
+      "byteLength": 16399
+    },
+    {
+      "frameId": "fm15",
+      "index": 3,
+      "angle": -15,
+      "file": "frames/fm15.pgm",
+      "sha256": "53f8587d35fcbc5632af9b7caad5e34e766aa0a3ced151f9d4a2648ca17ce4c2",
+      "byteLength": 16399
+    },
+    {
+      "frameId": "f000",
+      "index": 4,
+      "angle": 0,
+      "file": "frames/f000.pgm",
+      "sha256": "a0428560883d4182ee6fd0ea9afebdb6514198ca7a905c995c02ba723891a449",
+      "byteLength": 16399
+    },
+    {
+      "frameId": "f015",
+      "index": 5,
+      "angle": 15,
+      "file": "frames/f015.pgm",
+      "sha256": "cb55ca5fcee4388a6d7a78b5608edcc1aec92e9a2b84af50b2b4f16371afed7e",
+      "byteLength": 16399
+    },
+    {
+      "frameId": "f030",
+      "index": 6,
+      "angle": 30,
+      "file": "frames/f030.pgm",
+      "sha256": "de54d666d6a92fcdb381cca7088a59cd867542d5b4ba9d35098b86f1c955d743",
+      "byteLength": 16399
+    },
+    {
+      "frameId": "f045",
+      "index": 7,
+      "angle": 45,
+      "file": "frames/f045.pgm",
+      "sha256": "8764a6c0e14d6c5763992cac8eb20e880883fcd90703074eb85a912b836ae709",
+      "byteLength": 16399
+    },
+    {
+      "frameId": "f060",
+      "index": 8,
+      "angle": 60,
+      "file": "frames/f060.pgm",
+      "sha256": "06c209573ba90af6557750590c2b1eaf4435c8b8e617cddfc21a3d67e701c662",
+      "byteLength": 16399
+    }
+  ],
+  "tiltAngles": [
+    {
+      "angleId": "angle-fm60",
+      "frameId": "fm60",
+      "raw": {
+        "text": "-60 deg"
+      },
+      "value": -60,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    },
+    {
+      "angleId": "angle-fm45",
+      "frameId": "fm45",
+      "raw": {
+        "text": "-45 deg"
+      },
+      "value": -45,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    },
+    {
+      "angleId": "angle-fm30",
+      "frameId": "fm30",
+      "raw": {
+        "text": "-30 deg"
+      },
+      "value": -30,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    },
+    {
+      "angleId": "angle-fm15",
+      "frameId": "fm15",
+      "raw": {
+        "text": "-15 deg"
+      },
+      "value": -15,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    },
+    {
+      "angleId": "angle-f000",
+      "frameId": "f000",
+      "raw": {
+        "text": "0 deg"
+      },
+      "value": 0,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    },
+    {
+      "angleId": "angle-f015",
+      "frameId": "f015",
+      "raw": {
+        "text": "15 deg"
+      },
+      "value": 15,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    },
+    {
+      "angleId": "angle-f030",
+      "frameId": "f030",
+      "raw": {
+        "text": "30 deg"
+      },
+      "value": 30,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    },
+    {
+      "angleId": "angle-f045",
+      "frameId": "f045",
+      "raw": {
+        "text": "45 deg"
+      },
+      "value": 45,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    },
+    {
+      "angleId": "angle-f060",
+      "frameId": "f060",
+      "raw": {
+        "text": "60 deg"
+      },
+      "value": 60,
+      "unit": "degree",
+      "signConvention": "ccw_positive_in_xy"
+    }
+  ],
+  "pixelScales": [
+    {
+      "scaleId": "scale-series",
+      "frameId": null,
+      "raw": {
+        "text": "0.55 nm/px (microscope MAG x43k)"
+      },
+      "value": 0.55,
+      "unit": "nm_per_px"
+    }
+  ],
+  "doses": [
+    {
+      "doseId": "dose-fm60",
+      "frameId": "fm60",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.8
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.8,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 1.8,
+        "unit": "e-/A^2"
+      }
+    },
+    {
+      "doseId": "dose-fm45",
+      "frameId": "fm45",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.82
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.82,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 3.62,
+        "unit": "e-/A^2"
+      }
+    },
+    {
+      "doseId": "dose-fm30",
+      "frameId": "fm30",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.84
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.84,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 5.46,
+        "unit": "e-/A^2"
+      }
+    },
+    {
+      "doseId": "dose-fm15",
+      "frameId": "fm15",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.86
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.86,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 7.32,
+        "unit": "e-/A^2"
+      }
+    },
+    {
+      "doseId": "dose-f000",
+      "frameId": "f000",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.88
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.88,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 9.2,
+        "unit": "e-/A^2"
+      }
+    },
+    {
+      "doseId": "dose-f015",
+      "frameId": "f015",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.9
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.9,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 11.1,
+        "unit": "e-/A^2"
+      }
+    },
+    {
+      "doseId": "dose-f030",
+      "frameId": "f030",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.92
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.92,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 13.02,
+        "unit": "e-/A^2"
+      }
+    },
+    {
+      "doseId": "dose-f045",
+      "frameId": "f045",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.94
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.94,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 14.96,
+        "unit": "e-/A^2"
+      }
+    },
+    {
+      "doseId": "dose-f060",
+      "frameId": "f060",
+      "raw": {
+        "dm4": {
+          "image_list": 0,
+          "exposure_dose": 1.96
+        }
+      },
+      "electronsPerAngstrom2": {
+        "value": 1.96,
+        "unit": "e-/A^2"
+      },
+      "cumulative": {
+        "value": 16.92,
+        "unit": "e-/A^2"
+      }
+    }
+  ],
+  "observations": [
+    {
+      "observationId": "obs-fm60-tracker-1",
+      "frameId": "fm60",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 75.855,
+      "y": 33.768,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm60-tracker-2",
+      "frameId": "fm60",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m2",
+      "x": 66.175,
+      "y": 43.598,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm60-tracker-3",
+      "frameId": "fm60",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m3",
+      "x": 41.425,
+      "y": 78.889,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm60-tracker-4",
+      "frameId": "fm60",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 91.343,
+      "y": 71.931,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm60-tracker-5",
+      "frameId": "fm60",
+      "observedTrackId": "tracker-5",
+      "physicalTruth": "m5",
+      "x": 39.809,
+      "y": 97.031,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm60-tracker-6",
+      "frameId": "fm60",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 104.792,
+      "y": 102.185,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm45-tracker-1",
+      "frameId": "fm45",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 64.93,
+      "y": 32.703,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm45-tracker-2",
+      "frameId": "fm45",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m2",
+      "x": 66.122,
+      "y": 43.676,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm45-tracker-3",
+      "frameId": "fm45",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m3",
+      "x": 40.989,
+      "y": 78.926,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm45-tracker-4",
+      "frameId": "fm45",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 93.555,
+      "y": 72.247,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm45-tracker-5",
+      "frameId": "fm45",
+      "observedTrackId": "tracker-5",
+      "physicalTruth": "m5",
+      "x": 33.314,
+      "y": 96.432,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm45-tracker-6",
+      "frameId": "fm45",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 102.491,
+      "y": 102.027,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm30-tracker-1",
+      "frameId": "fm30",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 55.104,
+      "y": 31.754,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm30-tracker-2",
+      "frameId": "fm30",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m2",
+      "x": 67.01,
+      "y": 43.852,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm30-tracker-3",
+      "frameId": "fm30",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m3",
+      "x": 42.938,
+      "y": 79.214,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm30-tracker-4",
+      "frameId": "fm30",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 94.656,
+      "y": 72.446,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm30-tracker-6",
+      "frameId": "fm30",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 98.266,
+      "y": 101.666,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm15-tracker-1",
+      "frameId": "fm15",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 47.07,
+      "y": 30.993,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm15-tracker-3",
+      "frameId": "fm15",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m2",
+      "x": 68.802,
+      "y": 44.124,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm15-tracker-2",
+      "frameId": "fm15",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m3",
+      "x": 47.163,
+      "y": 79.741,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm15-tracker-4",
+      "frameId": "fm15",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 94.595,
+      "y": 72.522,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-fm15-tracker-6",
+      "frameId": "fm15",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 92.428,
+      "y": 101.135,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f000-tracker-1",
+      "frameId": "f000",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 40,
+      "y": 30.48,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f000-tracker-3",
+      "frameId": "f000",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m2",
+      "x": 70,
+      "y": 44.48,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f000-tracker-2",
+      "frameId": "f000",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m3",
+      "x": 52,
+      "y": 80.48,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f000-tracker-4",
+      "frameId": "f000",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 92,
+      "y": 72.48,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f000-tracker-6",
+      "frameId": "f000",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 84,
+      "y": 100.48,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f015-tracker-1",
+      "frameId": "f015",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 38.504,
+      "y": 30.259,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f015-tracker-3",
+      "frameId": "f015",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m2",
+      "x": 74.65,
+      "y": 44.905,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f015-tracker-2",
+      "frameId": "f015",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m3",
+      "x": 61.248,
+      "y": 81.388,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f015-tracker-4",
+      "frameId": "f015",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 91.176,
+      "y": 72.33,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f015-tracker-5",
+      "frameId": "f015",
+      "observedTrackId": "tracker-5",
+      "physicalTruth": "m5",
+      "x": 36.844,
+      "y": 97.135,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f015-tracker-6",
+      "frameId": "f015",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 77.684,
+      "y": 99.752,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f030-tracker-1",
+      "frameId": "f030",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 38.603,
+      "y": 30.352,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f030-tracker-3",
+      "frameId": "f030",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m2",
+      "x": 78.356,
+      "y": 45.377,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f030-tracker-2",
+      "frameId": "f030",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m3",
+      "x": 70.196,
+      "y": 82.412,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f030-tracker-4",
+      "frameId": "f030",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 88.1,
+      "y": 72.089,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f030-tracker-5",
+      "frameId": "f030",
+      "observedTrackId": "tracker-5",
+      "physicalTruth": "m5",
+      "x": 44.921,
+      "y": 98.068,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f030-tracker-6",
+      "frameId": "f030",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 69.83,
+      "y": 99.01,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f045-tracker-1",
+      "frameId": "f045",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 51.214,
+      "y": 36.763,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f045-tracker-3",
+      "frameId": "f045",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m2",
+      "x": 91.787,
+      "y": 51.874,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f045-tracker-2",
+      "frameId": "f045",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m3",
+      "x": 89.157,
+      "y": 89.489,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f045-tracker-4",
+      "frameId": "f045",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 93.903,
+      "y": 77.784,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f045-tracker-5",
+      "frameId": "f045",
+      "observedTrackId": "tracker-5",
+      "physicalTruth": "m5",
+      "x": 64.604,
+      "y": 105.221,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f045-tracker-6",
+      "frameId": "f045",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 71.897,
+      "y": 104.312,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f060-tracker-1",
+      "frameId": "f060",
+      "observedTrackId": "tracker-1",
+      "physicalTruth": "m1",
+      "x": 47.649,
+      "y": 31.47,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f060-tracker-3",
+      "frameId": "f060",
+      "observedTrackId": "tracker-3",
+      "physicalTruth": "m2",
+      "x": 86.201,
+      "y": 46.368,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f060-tracker-2",
+      "frameId": "f060",
+      "observedTrackId": "tracker-2",
+      "physicalTruth": "m3",
+      "x": 89.012,
+      "y": 84.556,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f060-tracker-4",
+      "frameId": "f060",
+      "observedTrackId": "tracker-4",
+      "physicalTruth": "m4",
+      "x": 80.362,
+      "y": 71.443,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f060-tracker-5",
+      "frameId": "f060",
+      "observedTrackId": "tracker-5",
+      "physicalTruth": "m5",
+      "x": 66.725,
+      "y": 100.526,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    },
+    {
+      "observationId": "obs-f060-tracker-6",
+      "frameId": "f060",
+      "observedTrackId": "tracker-6",
+      "physicalTruth": "m6",
+      "x": 55.915,
+      "y": 97.714,
+      "basis": "image_px_top_left",
+      "uncertaintyPx": 0.4
+    }
+  ],
+  "trackGaps": [
+    {
+      "gapId": "gap-tracker5-low-tilt",
+      "observedTrackId": "tracker-5",
+      "missingFrameIds": [
+        "fm30",
+        "fm15",
+        "f000"
+      ],
+      "reason": "low contrast at low dose; tracker confidence < threshold",
+      "raw": {
+        "log": "tracker v3.2: lost at fm30, reacquired f015"
+      }
+    }
+  ],
+  "manualExclusionReasons": [
+    {
+      "reasonId": "exclude-f045",
+      "frameId": "f045",
+      "reason": "beam jump during exposure; whole-frame drift 11px — excluded pending decision",
+      "author": "em-team@grid",
+      "raw": {
+        "microscopistNote": "f045 looks smeared in live view"
+      }
+    }
+  ],
+  "scenarios": {
+    "axis_eccentricity": {
+      "minimal": {
+        "frameIds": [
+          "fm30",
+          "f000",
+          "f030"
+        ],
+        "description": "仅 3 帧即可证明轴不经过图像中心"
+      },
+      "combined": {
+        "frameIds": [
+          "fm60",
+          "fm45",
+          "fm30",
+          "fm15",
+          "f000",
+          "f015",
+          "f030",
+          "f045",
+          "f060"
+        ]
+      }
+    },
+    "track_identity_swap": {
+      "minimal": {
+        "observationIds": [
+          "obs-fm30-tracker-2",
+          "obs-fm15-tracker-2",
+          "obs-f015-tracker-2",
+          "obs-f030-tracker-2"
+        ]
+      },
+      "combined": {
+        "usesAllObservations": true
+      }
+    },
+    "missing_high_tilt_frames": {
+      "missingFrameIds": [
+        "fm60",
+        "f060"
+      ],
+      "minimal": {
+        "removeFrameIds": [
+          "fm60"
+        ]
+      },
+      "combined": {
+        "removeFrameIds": [
+          "fm60",
+          "f060"
+        ]
+      }
+    },
+    "bad_frame_exclusion": {
+      "badFrameId": "f045",
+      "minimal": {
+        "frameIds": [
+          "f030",
+          "f045",
+          "f060"
+        ]
+      }
+    },
+    "local_warp_overfit": {
+      "minimal": {
+        "frameIds": [
+          "f015",
+          "f030"
+        ],
+        "trackerSubset": [
+          "tracker-1",
+          "tracker-2",
+          "tracker-4"
+        ]
+      }
+    },
+    "multiple_solutions": {
+      "minimal": {
+        "collinearTracks": [
+          "tracker-1",
+          "tracker-2"
+        ]
+      }
+    },
+    "concurrent_freeze": {
+      "note": "由两个浏览器窗口在重放阶段制造，非静态材料"
+    }
+  },
+  "narrative": {
+    "baseline": "初始导入：帧/倾角/尺度/剂量/标记点/缺口/手工排除原因全部版本化",
+    "revision2": "参数修订：把“假设轴在图像中心”改为必须估计，并收紧坏帧残差阈值",
+    "revision3": "只影响局部依赖的源数据改动：修正 f015 上 tracker-1 的一个亚像素坐标",
+    "conflictingDecision": "窗口 A 接受刚体方案并锁定；窗口 B 基于过期世界版本提交局部形变 -> 版本冲突"
+  }
+}
