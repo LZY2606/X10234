@@ -1,0 +1,27 @@
+{
+  "name": "tilt-series-registration-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Electron tomography tilt-series alignment review tool with versioned provenance archive",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run --config vitest.config.ts && playwright test",
+    "gen:casepack": "tsx tools/generate-casepack.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
