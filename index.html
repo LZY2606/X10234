@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>倾转帧拼合室 · 配准审阅</title>
+    <style>
+      :root { color-scheme: light; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font-family: "SF Pro Text", "PingFang SC", system-ui, sans-serif; background: #f4f5f7; color: #1c2330; font-size: 13px; }
+      header { display: flex; gap: 8px; align-items: center; padding: 10px 14px; background: #14213d; color: #fff; flex-wrap: wrap; }
+      header h1 { font-size: 15px; margin: 0 12px 0 0; }
+      button { border: 1px solid #b8c0cc; background: #fff; border-radius: 6px; padding: 4px 10px; cursor: pointer; font-size: 12px; }
+      button:hover { background: #eef2f7; }
+      button.primary { background: #fca311; border-color: #fca311; color: #14213d; font-weight: 600; }
+      button.danger { border-color: #d00000; color: #d00000; }
+      header button { background: #1f3160; color: #fff; border-color: #3a4f8a; }
+      select, input[type="text"] { border: 1px solid #b8c0cc; border-radius: 6px; padding: 3px 6px; font-size: 12px; }
+      main { display: grid; grid-template-columns: 430px 1fr 380px; gap: 10px; padding: 10px; }
+      section { background: #fff; border: 1px solid #dde2ea; border-radius: 8px; padding: 10px; margin-bottom: 10px; }
+      h2 { font-size: 13px; margin: 0 0 8px; color: #14213d; border-bottom: 1px solid #eef1f5; padding-bottom: 5px; }
+      .ident { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 10.5px; color: #5b6472; }
+      .diag { border-left: 3px solid #fca311; background: #fff8ec; padding: 4px 8px; margin: 4px 0; border-radius: 0 4px 4px 0; }
+      .diag.error { border-color: #d00000; background: #fdecec; }
+      table { border-collapse: collapse; width: 100%; font-size: 12px; }
+      th, td { border: 1px solid #e3e8ef; padding: 3px 6px; text-align: left; }
+      th { background: #f2f5f9; }
+      tr.selected { background: #fff3da; }
+      .bar-row { display: flex; align-items: center; gap: 6px; margin: 2px 0; }
+      .bar-label { width: 56px; text-align: right; font-family: ui-monospace, Menlo, monospace; font-size: 10.5px; }
+      .bar { height: 12px; background: #3a6ea5; border-radius: 2px; min-width: 1px; }
+      .bar.excluded { background: repeating-linear-gradient(45deg, #c33, #c33 3px, #f6c 3px, #f6c 6px); }
+      .pill { display: inline-block; border-radius: 10px; padding: 1px 8px; font-size: 11px; background: #e8edf5; margin: 1px 2px; }
+      .pill.accepted { background: #d8f3dc; } .pill.rejected { background: #ffd6d6; }
+      .pill.locked { background: #fca311; } .pill.stale { background: #efe0b5; }
+      #conflict-modal { position: fixed; inset: 0; background: rgba(10,15,30,.45); display: flex; align-items: center; justify-content: center; z-index: 10; }
+      #conflict-modal .box { background: #fff; border-radius: 10px; padding: 16px; width: 640px; max-height: 80vh; overflow: auto; }
+      .muted { color: #6b7482; } .ok { color: #2d6a4f; } .bad { color: #b00020; }
+      svg text { font-size: 9px; font-family: ui-monospace, Menlo, monospace; }
+      .col { min-width: 0; }
+      ul.tight { margin: 4px 0; padding-left: 18px; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
