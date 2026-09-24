@@ -1,0 +1,23 @@
+{
+  "name": "tilt-chamber-registration-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支的离线审阅工具",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "gen:cases": "node --experimental-strip-types scripts/gen-case.ts && node --experimental-strip-types scripts/gen-situations.ts",
+    "dev": "node --experimental-sqlite --experimental-strip-types src/server/main.ts --host 127.0.0.1 --port 5349 --strictPort",
+    "test": "node --experimental-sqlite --experimental-strip-types --import tsx node_modules/vitest/vitest.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.49.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.8"
+  }
+}
