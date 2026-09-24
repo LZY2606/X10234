@@ -1,0 +1,22 @@
+{
+  "name": "tilt-series-registration-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "电子断层倾转序列 fiducial 轨迹与配准分支审阅工具（倾转帧拼合室）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest",
+    "case:build": "node --experimental-strip-types scripts/build-case.ts"
+  },
+  "dependencies": {
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "happy-dom": "^15.11.7",
+    "typescript": "~5.7.2",
+    "vitest": "^3.2.1"
+  }
+}
