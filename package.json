@@ -1,0 +1,21 @@
+{
+  "name": "tilt-series-alignment-review",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "电子断层倾转序列配准审阅工具：版本化来源、候选比较、反例档案与复核界面",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5349 --strictPort",
+    "build": "vite build",
+    "test": "vitest",
+    "seed": "node --experimental-strip-types server/cli.ts seed"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "jsdom": "^24.1.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.1.0"
+  }
+}
