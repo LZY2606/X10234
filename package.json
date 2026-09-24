@@ -1,0 +1,23 @@
+{
+  "name": "tilt-frame-stitching-room",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支审阅工具",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "happy-dom": "^15.11.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.5"
+  }
+}
