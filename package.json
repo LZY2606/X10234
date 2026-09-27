@@ -1,0 +1,21 @@
+{
+  "name": "tilt-align-review",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "电子断层倾转序列配准审阅工具：版本化来源、候选配准、裁定分支与反例档案",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "gen:case": "node scripts/generate-case.mjs",
+    "postinstall": "playwright install chromium || echo '[postinstall] playwright chromium install skipped (offline?)'"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "playwright": "^1.49.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
+  }
+}
