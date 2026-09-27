@@ -1,0 +1,24 @@
+{
+  "name": "tilt-alignment-archive",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支的电子断层配准审阅工具",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "sql.js": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "@types/sql.js": "^1.4.9",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
