@@ -1,0 +1,20 @@
+{
+  "name": "tilt-frame-stitch-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支审阅工具",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest",
+    "case:build": "node --experimental-strip-types tools/build-case.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "happy-dom": "^15.11.7",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
