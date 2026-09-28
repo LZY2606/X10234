@@ -1,0 +1,23 @@
+{
+  "name": "tilt-room",
+  "version": "1.0.0",
+  "private": true,
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支审阅工具",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest",
+    "gen:cases": "tsx tools/generate-cases.ts"
+  },
+  "dependencies": {
+    "playwright-core": "^1.57.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
+  }
+}
