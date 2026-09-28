@@ -1,0 +1,1150 @@
+{
+  "batchId": "batch_5fafc1f0be1f5c7f",
+  "seriesId": "combined-tomogram-review",
+  "truth": {
+    "axisX": 70,
+    "axisY": 48,
+    "axisAngleDeg": 2.5,
+    "markers": [
+      {
+        "trackId": "track-A",
+        "x0": 40,
+        "y0": 28,
+        "z": -14
+      },
+      {
+        "trackId": "track-B",
+        "x0": 88,
+        "y0": 30,
+        "z": 10
+      },
+      {
+        "trackId": "track-C",
+        "x0": 62,
+        "y0": 62,
+        "z": -6
+      },
+      {
+        "trackId": "track-D",
+        "x0": 96,
+        "y0": 66,
+        "z": 16
+      },
+      {
+        "trackId": "track-E",
+        "x0": 32,
+        "y0": 58,
+        "z": 4
+      }
+    ]
+  },
+  "entities": [
+    {
+      "kind": "TiltFrame",
+      "frameId": "frame_2d188c0820929c14",
+      "ordinal": 1,
+      "exposureIndex": 2,
+      "width": 128,
+      "height": 96,
+      "blobSha256": "27e2cefa90894d02872884a37f32f1dcd381d19594991e8c2569754947159d5e",
+      "mediaType": "image/png"
+    },
+    {
+      "kind": "TiltAngle",
+      "frameId": "frame_2d188c0820929c14",
+      "angle": {
+        "raw": "-30",
+        "value": -0.5235987755982988,
+        "unit": "degree",
+        "targetUnit": "radian"
+      },
+      "direction": "negative"
+    },
+    {
+      "kind": "PixelScale",
+      "frameId": "frame_2d188c0820929c14",
+      "nmPerPixel": {
+        "raw": "0.54",
+        "value": 0.54,
+        "unit": "nm",
+        "targetUnit": "nm"
+      }
+    },
+    {
+      "kind": "ExposureDose",
+      "frameId": "frame_2d188c0820929c14",
+      "electronsPerSquareAngstrom": {
+        "raw": "1.72",
+        "value": 1.72,
+        "unit": "e/A^2",
+        "targetUnit": "e/A^2"
+      }
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_2d188c0820929c14",
+      "trackId": "track-A",
+      "segmentId": "seg_618c388fc4dc41d0",
+      "x": {
+        "raw": "41",
+        "value": 41,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "38.09",
+        "value": 38.09,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_2d188c0820929c14",
+      "trackId": "track-B",
+      "segmentId": "seg_9a8dcc3193ba4742",
+      "x": {
+        "raw": "88.92",
+        "value": 88.92,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "28.43",
+        "value": 28.43,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_2d188c0820929c14",
+      "trackId": "track-C",
+      "segmentId": "seg_cceccb49219b54f7",
+      "x": {
+        "raw": "63.5",
+        "value": 63.5,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "63.75",
+        "value": 63.75,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_2d188c0820929c14",
+      "trackId": "track-D",
+      "segmentId": "seg_f5dcd7c5839a45a6",
+      "x": {
+        "raw": "97.45",
+        "value": 97.45,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "56.07",
+        "value": 56.07,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_2d188c0820929c14",
+      "trackId": "track-E",
+      "segmentId": "seg_8d54da9deea0b122",
+      "x": {
+        "raw": "33.45",
+        "value": 33.45,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "55.34",
+        "value": 55.34,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "TiltFrame",
+      "frameId": "frame_67e8a895496e0f96",
+      "ordinal": 2,
+      "exposureIndex": 3,
+      "width": 128,
+      "height": 96,
+      "blobSha256": "b514650fb49063fd4e9f5d394d21bf93ee739fc0374182bbd93e34b7e73e4c02",
+      "mediaType": "image/png"
+    },
+    {
+      "kind": "TiltAngle",
+      "frameId": "frame_67e8a895496e0f96",
+      "angle": {
+        "raw": "-20",
+        "value": -0.3490658503988659,
+        "unit": "degree",
+        "targetUnit": "radian"
+      },
+      "direction": "negative"
+    },
+    {
+      "kind": "PixelScale",
+      "frameId": "frame_67e8a895496e0f96",
+      "nmPerPixel": {
+        "raw": "0.54",
+        "value": 0.54,
+        "unit": "nm",
+        "targetUnit": "nm"
+      }
+    },
+    {
+      "kind": "ExposureDose",
+      "frameId": "frame_67e8a895496e0f96",
+      "electronsPerSquareAngstrom": {
+        "raw": "1.84",
+        "value": 1.84,
+        "unit": "e/A^2",
+        "targetUnit": "e/A^2"
+      }
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_67e8a895496e0f96",
+      "trackId": "track-A",
+      "segmentId": "seg_618c388fc4dc41d0",
+      "x": {
+        "raw": "42.23",
+        "value": 42.23,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "34.97",
+        "value": 34.97,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_67e8a895496e0f96",
+      "trackId": "track-B",
+      "segmentId": "seg_9a8dcc3193ba4742",
+      "x": {
+        "raw": "90.33",
+        "value": 90.33,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "28.49",
+        "value": 28.49,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_67e8a895496e0f96",
+      "trackId": "track-C",
+      "segmentId": "seg_cceccb49219b54f7",
+      "x": {
+        "raw": "64.06",
+        "value": 64.06,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "63.63",
+        "value": 63.63,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_67e8a895496e0f96",
+      "trackId": "track-D",
+      "segmentId": "seg_f5dcd7c5839a45a6",
+      "x": {
+        "raw": "98.42",
+        "value": 98.42,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "60.22",
+        "value": 60.22,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_67e8a895496e0f96",
+      "trackId": "track-E",
+      "segmentId": "seg_8d54da9deea0b122",
+      "x": {
+        "raw": "34.31",
+        "value": 34.31,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "56.7",
+        "value": 56.7,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "TiltFrame",
+      "frameId": "frame_9583d657bf87ee27",
+      "ordinal": 3,
+      "exposureIndex": 4,
+      "width": 128,
+      "height": 96,
+      "blobSha256": "dbc56969af379f837354357ec3fb829ef4bcd2e64c2cb424e8f2ac0550ceff56",
+      "mediaType": "image/png"
+    },
+    {
+      "kind": "TiltAngle",
+      "frameId": "frame_9583d657bf87ee27",
+      "angle": {
+        "raw": "-10",
+        "value": -0.17453292519943295,
+        "unit": "degree",
+        "targetUnit": "radian"
+      },
+      "direction": "negative"
+    },
+    {
+      "kind": "PixelScale",
+      "frameId": "frame_9583d657bf87ee27",
+      "nmPerPixel": {
+        "raw": "0.54",
+        "value": 0.54,
+        "unit": "nm",
+        "targetUnit": "nm"
+      }
+    },
+    {
+      "kind": "ExposureDose",
+      "frameId": "frame_9583d657bf87ee27",
+      "electronsPerSquareAngstrom": {
+        "raw": "1.96",
+        "value": 1.96,
+        "unit": "e/A^2",
+        "targetUnit": "e/A^2"
+      }
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_9583d657bf87ee27",
+      "trackId": "track-A",
+      "segmentId": "seg_618c388fc4dc41d0",
+      "x": {
+        "raw": "43.56",
+        "value": 43.56,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "30.95",
+        "value": 30.95,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_9583d657bf87ee27",
+      "trackId": "track-B",
+      "segmentId": "seg_9a8dcc3193ba4742",
+      "x": {
+        "raw": "91.86",
+        "value": 91.86,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "28.29",
+        "value": 28.29,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_9583d657bf87ee27",
+      "trackId": "track-C",
+      "segmentId": "seg_cceccb49219b54f7",
+      "x": {
+        "raw": "65.75",
+        "value": 65.75,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "63.33",
+        "value": 63.33,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_9583d657bf87ee27",
+      "trackId": "track-D",
+      "segmentId": "seg_f5dcd7c5839a45a6",
+      "x": {
+        "raw": "99.42",
+        "value": 99.42,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "63.45",
+        "value": 63.45,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_9583d657bf87ee27",
+      "trackId": "track-E",
+      "segmentId": "seg_8d54da9deea0b122",
+      "x": {
+        "raw": "36",
+        "value": 36,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "57.18",
+        "value": 57.18,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "TiltFrame",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "ordinal": 4,
+      "exposureIndex": 5,
+      "width": 128,
+      "height": 96,
+      "blobSha256": "b8a2bc338c87386eaeb9a8e84fbb1a89dbe8f9fdddb501e51993009097392454",
+      "mediaType": "image/png"
+    },
+    {
+      "kind": "TiltAngle",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "angle": {
+        "raw": "0",
+        "value": 0,
+        "unit": "degree",
+        "targetUnit": "radian"
+      },
+      "direction": "untilted"
+    },
+    {
+      "kind": "PixelScale",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "nmPerPixel": {
+        "raw": "0.54",
+        "value": 0.54,
+        "unit": "nm",
+        "targetUnit": "nm"
+      }
+    },
+    {
+      "kind": "ExposureDose",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "electronsPerSquareAngstrom": {
+        "raw": "2.08",
+        "value": 2.08,
+        "unit": "e/A^2",
+        "targetUnit": "e/A^2"
+      }
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "trackId": "track-A",
+      "segmentId": "seg_618c388fc4dc41d0",
+      "x": {
+        "raw": "44.84",
+        "value": 44.84,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "27.54",
+        "value": 27.54,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "trackId": "track-B",
+      "segmentId": "seg_9a8dcc3193ba4742",
+      "x": {
+        "raw": "93.09",
+        "value": 93.09,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "29.58",
+        "value": 29.58,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "trackId": "track-C",
+      "segmentId": "seg_cceccb49219b54f7",
+      "x": {
+        "raw": "66.82",
+        "value": 66.82,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "61.53",
+        "value": 61.53,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "trackId": "track-D",
+      "segmentId": "seg_f5dcd7c5839a45a6",
+      "x": {
+        "raw": "100.48",
+        "value": 100.48,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "65.65",
+        "value": 65.65,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ad80ccc61e7fede1",
+      "trackId": "track-E",
+      "segmentId": "seg_8d54da9deea0b122",
+      "x": {
+        "raw": "37.08",
+        "value": 37.08,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "57.51",
+        "value": 57.51,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "TiltFrame",
+      "frameId": "frame_096e11d22cdc5a67",
+      "ordinal": 5,
+      "exposureIndex": 6,
+      "width": 128,
+      "height": 96,
+      "blobSha256": "0ea28d9c8a87e18be404577dc714bdce2de1d838dd5f276d5f10ce28dfa28389",
+      "mediaType": "image/png",
+      "acquiredNote": "motion-streak-suspected"
+    },
+    {
+      "kind": "TiltAngle",
+      "frameId": "frame_096e11d22cdc5a67",
+      "angle": {
+        "raw": "10",
+        "value": 0.17453292519943295,
+        "unit": "degree",
+        "targetUnit": "radian"
+      },
+      "direction": "positive"
+    },
+    {
+      "kind": "PixelScale",
+      "frameId": "frame_096e11d22cdc5a67",
+      "nmPerPixel": {
+        "raw": "0.54",
+        "value": 0.54,
+        "unit": "nm",
+        "targetUnit": "nm"
+      }
+    },
+    {
+      "kind": "ExposureDose",
+      "frameId": "frame_096e11d22cdc5a67",
+      "electronsPerSquareAngstrom": {
+        "raw": "2.20",
+        "value": 2.2,
+        "unit": "e/A^2",
+        "targetUnit": "e/A^2"
+      }
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_096e11d22cdc5a67",
+      "trackId": "track-A",
+      "segmentId": "seg_d5bfd43ed4db766c",
+      "x": {
+        "raw": "95.27",
+        "value": 95.27,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "30.7",
+        "value": 30.7,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.35
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_096e11d22cdc5a67",
+      "trackId": "track-B",
+      "segmentId": "seg_2c254c3d3b04e0bd",
+      "x": {
+        "raw": "46.16",
+        "value": 46.16,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "22.21",
+        "value": 22.21,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.35
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_096e11d22cdc5a67",
+      "trackId": "track-C",
+      "segmentId": "seg_cceccb49219b54f7",
+      "x": {
+        "raw": "64.49",
+        "value": 64.49,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "57.48",
+        "value": 57.48,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.35
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_096e11d22cdc5a67",
+      "trackId": "track-D",
+      "segmentId": "seg_f5dcd7c5839a45a6",
+      "x": {
+        "raw": "103.33",
+        "value": 103.33,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "68.55",
+        "value": 68.55,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.35
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_096e11d22cdc5a67",
+      "trackId": "track-E",
+      "segmentId": "seg_8d54da9deea0b122",
+      "x": {
+        "raw": "34.55",
+        "value": 34.55,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "58.56",
+        "value": 58.56,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.35
+    },
+    {
+      "kind": "TiltFrame",
+      "frameId": "frame_ce9d76c7943288da",
+      "ordinal": 6,
+      "exposureIndex": 7,
+      "width": 128,
+      "height": 96,
+      "blobSha256": "f800498895ae437e03519328d698b65064755025122d3d4b1071a30936927e2f",
+      "mediaType": "image/png"
+    },
+    {
+      "kind": "TiltAngle",
+      "frameId": "frame_ce9d76c7943288da",
+      "angle": {
+        "raw": "20",
+        "value": 0.3490658503988659,
+        "unit": "degree",
+        "targetUnit": "radian"
+      },
+      "direction": "positive"
+    },
+    {
+      "kind": "PixelScale",
+      "frameId": "frame_ce9d76c7943288da",
+      "nmPerPixel": {
+        "raw": "0.54",
+        "value": 0.54,
+        "unit": "nm",
+        "targetUnit": "nm"
+      }
+    },
+    {
+      "kind": "ExposureDose",
+      "frameId": "frame_ce9d76c7943288da",
+      "electronsPerSquareAngstrom": {
+        "raw": "2.32",
+        "value": 2.32,
+        "unit": "e/A^2",
+        "targetUnit": "e/A^2"
+      }
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ce9d76c7943288da",
+      "trackId": "track-A",
+      "segmentId": "seg_600765bebca42e67",
+      "x": {
+        "raw": "97.69",
+        "value": 97.69,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "32.77",
+        "value": 32.77,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ce9d76c7943288da",
+      "trackId": "track-B",
+      "segmentId": "seg_7880536c5c6827b7",
+      "x": {
+        "raw": "50.84",
+        "value": 50.84,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "25.06",
+        "value": 25.06,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ce9d76c7943288da",
+      "trackId": "track-C",
+      "segmentId": "seg_cceccb49219b54f7",
+      "x": {
+        "raw": "67.39",
+        "value": 67.39,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "58.94",
+        "value": 58.94,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ce9d76c7943288da",
+      "trackId": "track-D",
+      "segmentId": "seg_f5dcd7c5839a45a6",
+      "x": {
+        "raw": "99.65",
+        "value": 99.65,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "68.56",
+        "value": 68.56,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_ce9d76c7943288da",
+      "trackId": "track-E",
+      "segmentId": "seg_8d54da9deea0b122",
+      "x": {
+        "raw": "37.49",
+        "value": 37.49,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "60.02",
+        "value": 60.02,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "TiltFrame",
+      "frameId": "frame_d9bf4931c3ace444",
+      "ordinal": 7,
+      "exposureIndex": 8,
+      "width": 128,
+      "height": 96,
+      "blobSha256": "660ba0b6af3263f18c835bdd107d8353e4a48a1e79cdefd66dd80af4382e4e0e",
+      "mediaType": "image/png"
+    },
+    {
+      "kind": "TiltAngle",
+      "frameId": "frame_d9bf4931c3ace444",
+      "angle": {
+        "raw": "30",
+        "value": 0.5235987755982988,
+        "unit": "degree",
+        "targetUnit": "radian"
+      },
+      "direction": "positive"
+    },
+    {
+      "kind": "PixelScale",
+      "frameId": "frame_d9bf4931c3ace444",
+      "nmPerPixel": {
+        "raw": "0.54",
+        "value": 0.54,
+        "unit": "nm",
+        "targetUnit": "nm"
+      }
+    },
+    {
+      "kind": "ExposureDose",
+      "frameId": "frame_d9bf4931c3ace444",
+      "electronsPerSquareAngstrom": {
+        "raw": "2.44",
+        "value": 2.44,
+        "unit": "e/A^2",
+        "targetUnit": "e/A^2"
+      }
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_d9bf4931c3ace444",
+      "trackId": "track-A",
+      "segmentId": "seg_50c4768313efde17",
+      "x": {
+        "raw": "95.83",
+        "value": 95.83,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "38.03",
+        "value": 38.03,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_d9bf4931c3ace444",
+      "trackId": "track-B",
+      "segmentId": "seg_b878a40410fa780b",
+      "x": {
+        "raw": "48.72",
+        "value": 48.72,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "23.94",
+        "value": 23.94,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_d9bf4931c3ace444",
+      "trackId": "track-C",
+      "segmentId": "seg_cceccb49219b54f7",
+      "x": {
+        "raw": "70.8",
+        "value": 70.8,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "57.37",
+        "value": 57.37,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_d9bf4931c3ace444",
+      "trackId": "track-D",
+      "segmentId": "seg_f5dcd7c5839a45a6",
+      "x": {
+        "raw": "104.3",
+        "value": 104.3,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "72.33",
+        "value": 72.33,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "MarkerObservation",
+      "frameId": "frame_d9bf4931c3ace444",
+      "trackId": "track-E",
+      "segmentId": "seg_8d54da9deea0b122",
+      "x": {
+        "raw": "40.32",
+        "value": 40.32,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "y": {
+        "raw": "59.16",
+        "value": 59.16,
+        "unit": "px",
+        "targetUnit": "px"
+      },
+      "basis": {
+        "frame": "pixel",
+        "origin": "top-left"
+      },
+      "confidence": 0.92
+    },
+    {
+      "kind": "TrackingGap",
+      "gapId": "gap_f0e9079c79752d31",
+      "trackId": "track-A",
+      "fromFrameId": "frame_ad80ccc61e7fede1",
+      "toFrameId": "frame_096e11d22cdc5a67",
+      "reason": "track-lost-at-high-tilt"
+    },
+    {
+      "kind": "ManualExclusion",
+      "frameId": "frame_096e11d22cdc5a67",
+      "reasonCode": "MOTION_STREAK",
+      "reason": "stage-jump during acquisition"
+    }
+  ]
+}

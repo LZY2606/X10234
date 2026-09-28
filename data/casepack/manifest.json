@@ -1,0 +1,639 @@
+{
+  "pack": "tilt-frames-assembly-room",
+  "title": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支",
+  "builtAt": "2026-09-28T13:18:33.925Z",
+  "scenarios": [
+    {
+      "key": "axis-eccentricity",
+      "title": "轴线偏心"
+    },
+    {
+      "key": "identity-swap",
+      "title": "轨迹身份交换"
+    },
+    {
+      "key": "missing-high-tilt",
+      "title": "缺失高倾角帧"
+    },
+    {
+      "key": "bad-frame-exclusion",
+      "title": "坏帧排除"
+    },
+    {
+      "key": "local-warp-overfit",
+      "title": "局部形变过拟合"
+    },
+    {
+      "key": "multi-solution",
+      "title": "多解"
+    },
+    {
+      "key": "concurrent-freeze",
+      "title": "并发冻结"
+    }
+  ],
+  "variants": [
+    {
+      "scenario": "axis-eccentricity",
+      "variant": "minimal",
+      "seriesId": "core-axis-eccentricity",
+      "batchId": "batch_959f9f62711a611c",
+      "truth": {
+        "axisX": 70,
+        "axisY": 48,
+        "axisAngleDeg": 2.5,
+        "markers": [
+          {
+            "trackId": "track-A",
+            "x0": 40,
+            "y0": 28,
+            "z": -14
+          },
+          {
+            "trackId": "track-B",
+            "x0": 88,
+            "y0": 30,
+            "z": 10
+          },
+          {
+            "trackId": "track-C",
+            "x0": 62,
+            "y0": 62,
+            "z": -6
+          },
+          {
+            "trackId": "track-D",
+            "x0": 96,
+            "y0": 66,
+            "z": 16
+          },
+          {
+            "trackId": "track-E",
+            "x0": 32,
+            "y0": 58,
+            "z": 4
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frameId": "frame_ce0f12f651cfa5c5",
+          "ordinal": 0,
+          "tiltDeg": -20,
+          "blobSha256": "ee0b7fecaa5e2e25f20754841833c3936c1939703936780eeee0edafa0af5f03"
+        },
+        {
+          "frameId": "frame_257d8ece46aae2d6",
+          "ordinal": 1,
+          "tiltDeg": -10,
+          "blobSha256": "358ec9e4161413747dd37239d3e7d3754d360c74794c0b235f0c34a2d4e1827f"
+        },
+        {
+          "frameId": "frame_578d878acf9944b8",
+          "ordinal": 2,
+          "tiltDeg": 0,
+          "blobSha256": "c14102be94aaa864c80463f052e4322a40849fc7c4523af41b1c0ccd68ba753a"
+        },
+        {
+          "frameId": "frame_fd1f93557290c65e",
+          "ordinal": 3,
+          "tiltDeg": 10,
+          "blobSha256": "233beb9d92e86cc6b20f0a49b9c5261ee0e940ad9b567d8dafdc65f8ffc27f42"
+        },
+        {
+          "frameId": "frame_8c0564637b86c4eb",
+          "ordinal": 4,
+          "tiltDeg": 20,
+          "blobSha256": "76fc88dbf335991cd0891c16b1be60f60ac3e8d7e1bff364b28d7595074326ea"
+        }
+      ]
+    },
+    {
+      "scenario": "identity-swap",
+      "variant": "minimal",
+      "seriesId": "min-identity-swap",
+      "batchId": "batch_a1668247b5e31175",
+      "truth": {
+        "axisX": 70,
+        "axisY": 48,
+        "axisAngleDeg": 2.5,
+        "markers": [
+          {
+            "trackId": "track-A",
+            "x0": 40,
+            "y0": 28,
+            "z": -14
+          },
+          {
+            "trackId": "track-B",
+            "x0": 88,
+            "y0": 30,
+            "z": 10
+          },
+          {
+            "trackId": "track-C",
+            "x0": 62,
+            "y0": 62,
+            "z": -6
+          },
+          {
+            "trackId": "track-D",
+            "x0": 96,
+            "y0": 66,
+            "z": 16
+          },
+          {
+            "trackId": "track-E",
+            "x0": 32,
+            "y0": 58,
+            "z": 4
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frameId": "frame_0f8eeaba62606430",
+          "ordinal": 0,
+          "tiltDeg": -20,
+          "blobSha256": "1b226c8c754416c1b542f66f25b133440c0b496a7568b8c02e85d27ce4555a39"
+        },
+        {
+          "frameId": "frame_4e2f22f4b4460ee4",
+          "ordinal": 1,
+          "tiltDeg": -10,
+          "blobSha256": "f852d3e2617ce9f9bbb4eceed05aa4a37c3032028f5ab15f4c02425343268c0c"
+        },
+        {
+          "frameId": "frame_d8a85f3db1a4a8c9",
+          "ordinal": 2,
+          "tiltDeg": 0,
+          "blobSha256": "7656f61b218524b2b4d5b959215b69e8eda31836948521db1dfc6b4ab003e57c"
+        },
+        {
+          "frameId": "frame_afe3413fa0f04c61",
+          "ordinal": 3,
+          "tiltDeg": 10,
+          "blobSha256": "91625e97fdb7aaa6fcef7149c681aa70c58174ffb6280435bef6c92445c5e08c"
+        },
+        {
+          "frameId": "frame_2500415d26318a56",
+          "ordinal": 4,
+          "tiltDeg": 20,
+          "blobSha256": "408795e014624500ceac43b01600dbf54b2c221158475c9ee91f4e40c62a8974"
+        }
+      ]
+    },
+    {
+      "scenario": "missing-high-tilt",
+      "variant": "minimal",
+      "seriesId": "min-missing-high-tilt",
+      "batchId": "batch_396cadc490a0ee61",
+      "truth": {
+        "axisX": 70,
+        "axisY": 48,
+        "axisAngleDeg": 2.5,
+        "markers": [
+          {
+            "trackId": "track-A",
+            "x0": 40,
+            "y0": 28,
+            "z": -14
+          },
+          {
+            "trackId": "track-B",
+            "x0": 88,
+            "y0": 30,
+            "z": 10
+          },
+          {
+            "trackId": "track-C",
+            "x0": 62,
+            "y0": 62,
+            "z": -6
+          },
+          {
+            "trackId": "track-D",
+            "x0": 96,
+            "y0": 66,
+            "z": 16
+          },
+          {
+            "trackId": "track-E",
+            "x0": 32,
+            "y0": 58,
+            "z": 4
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frameId": "frame_f7868244ea8d1b3b",
+          "ordinal": 1,
+          "tiltDeg": -30,
+          "blobSha256": "05c99fdece9371eff1ed01f668bdf53ccc6662302674d9d4feb865ddd2e4aa55"
+        },
+        {
+          "frameId": "frame_e3976a15b8e4152d",
+          "ordinal": 2,
+          "tiltDeg": -20,
+          "blobSha256": "56db45c1450bded38d630f2487c006ac687ba4c7b67b92651376fefb0de65093"
+        },
+        {
+          "frameId": "frame_16c83c2594bf845b",
+          "ordinal": 3,
+          "tiltDeg": -10,
+          "blobSha256": "6ca34a426c4b46389de939f25742947815c282ee94eb01d7893cf17d090c10f5"
+        },
+        {
+          "frameId": "frame_a580c5c9506770ad",
+          "ordinal": 4,
+          "tiltDeg": 0,
+          "blobSha256": "44bafb766040352fa65f910c0020d2dcdd8196338816f0afb180339209bfb22b"
+        },
+        {
+          "frameId": "frame_caa4c6f0bed87193",
+          "ordinal": 5,
+          "tiltDeg": 10,
+          "blobSha256": "f9890b898e5bd0685fb7e4d8f778f3d75c0b565886c2e95a20b92ae25ff74148"
+        },
+        {
+          "frameId": "frame_30f47c4fc84469ea",
+          "ordinal": 6,
+          "tiltDeg": 20,
+          "blobSha256": "528731ea74999a3f6059c79a8f3ae14367a2b7df44d186e48f10a7346a9b0ed1"
+        },
+        {
+          "frameId": "frame_612ca97622a2774a",
+          "ordinal": 7,
+          "tiltDeg": 30,
+          "blobSha256": "574b4b837b78f75b155808a23d5786f8ef725d20422fd487142a020afab5bfec"
+        }
+      ]
+    },
+    {
+      "scenario": "bad-frame-exclusion",
+      "variant": "minimal",
+      "seriesId": "min-bad-frame",
+      "batchId": "batch_276e3c1b6d2d53c2",
+      "truth": {
+        "axisX": 70,
+        "axisY": 48,
+        "axisAngleDeg": 2.5,
+        "markers": [
+          {
+            "trackId": "track-A",
+            "x0": 40,
+            "y0": 28,
+            "z": -14
+          },
+          {
+            "trackId": "track-B",
+            "x0": 88,
+            "y0": 30,
+            "z": 10
+          },
+          {
+            "trackId": "track-C",
+            "x0": 62,
+            "y0": 62,
+            "z": -6
+          },
+          {
+            "trackId": "track-D",
+            "x0": 96,
+            "y0": 66,
+            "z": 16
+          },
+          {
+            "trackId": "track-E",
+            "x0": 32,
+            "y0": 58,
+            "z": 4
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frameId": "frame_d8ecb8a77e131eda",
+          "ordinal": 0,
+          "tiltDeg": -20,
+          "blobSha256": "07c03d40c4fc7a45247bad057511481071b4a4723fcf2aa0f0bb4320561f8d5e"
+        },
+        {
+          "frameId": "frame_662208453f9903b9",
+          "ordinal": 1,
+          "tiltDeg": -10,
+          "blobSha256": "6a87d2ef4b61f7cbf56938e2edfd2cea81aca3003b1019e1f700baf2d3d9ec06"
+        },
+        {
+          "frameId": "frame_938b254f776ec905",
+          "ordinal": 2,
+          "tiltDeg": 0,
+          "blobSha256": "bba2f753bbdc6c73521d1437aad2c836dce8f81006365bc9899a370908f26e81"
+        },
+        {
+          "frameId": "frame_13c7a139ba42c975",
+          "ordinal": 3,
+          "tiltDeg": 10,
+          "blobSha256": "5a2ec2dbd854a18954ce82d42b9df3a8277354ca8534535324f040b3e241a420"
+        },
+        {
+          "frameId": "frame_127989cfdaa2d520",
+          "ordinal": 4,
+          "tiltDeg": 20,
+          "blobSha256": "9ce10eefbb22c97a29f956620af88801bcb3a0d3f6a0f0f075c2b907ffb2d464"
+        }
+      ]
+    },
+    {
+      "scenario": "local-warp-overfit",
+      "variant": "minimal",
+      "seriesId": "min-local-warp",
+      "batchId": "batch_ab0c6149cd249826",
+      "truth": {
+        "axisX": 70,
+        "axisY": 48,
+        "axisAngleDeg": 2.5,
+        "markers": [
+          {
+            "trackId": "track-A",
+            "x0": 40,
+            "y0": 28,
+            "z": -14
+          },
+          {
+            "trackId": "track-B",
+            "x0": 88,
+            "y0": 30,
+            "z": 10
+          },
+          {
+            "trackId": "track-C",
+            "x0": 62,
+            "y0": 62,
+            "z": -6
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frameId": "frame_5e53e28719c3037c",
+          "ordinal": 0,
+          "tiltDeg": -20,
+          "blobSha256": "1ce3dc7434bc7c2257d8019e9cde18a0b996f70bbd1907bd5f09e4d382cac9a9"
+        },
+        {
+          "frameId": "frame_08428c3fb7c14978",
+          "ordinal": 1,
+          "tiltDeg": -10,
+          "blobSha256": "551131508ddba6faf3761cb293dbd147c6c107b0554faa8ea9c520dc765530a9"
+        },
+        {
+          "frameId": "frame_a802976e211abb00",
+          "ordinal": 2,
+          "tiltDeg": 0,
+          "blobSha256": "6171993bd979034a8c3803821598c6b4cc7cb8e949cdb5035b1ae0c27cdb7797"
+        },
+        {
+          "frameId": "frame_f6994a971976974e",
+          "ordinal": 3,
+          "tiltDeg": 10,
+          "blobSha256": "2974779b4f307718619694fd5b15d6df52048c3d5423b13661a3ecd8cd529997"
+        },
+        {
+          "frameId": "frame_54bc224fa2a749cd",
+          "ordinal": 4,
+          "tiltDeg": 20,
+          "blobSha256": "ca8b69dcf962809721a5dd777a660d02ae7895c8e26b55ad98fb9d122cd8d5db"
+        }
+      ]
+    },
+    {
+      "scenario": "multi-solution",
+      "variant": "minimal",
+      "seriesId": "min-multi-solution",
+      "batchId": "batch_0a79998333a16d66",
+      "truth": {
+        "axisX": 64,
+        "axisY": 48,
+        "axisAngleDeg": 2.5,
+        "markers": [
+          {
+            "trackId": "track-S1",
+            "x0": 48,
+            "y0": 34,
+            "z": -12
+          },
+          {
+            "trackId": "track-S2",
+            "x0": 80,
+            "y0": 34,
+            "z": 12
+          },
+          {
+            "trackId": "track-S3",
+            "x0": 64,
+            "y0": 64,
+            "z": 0
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frameId": "frame_d2dce16435d0118d",
+          "ordinal": 0,
+          "tiltDeg": -20,
+          "blobSha256": "e2b6160d272d2e420ef0b5f0e61f23939a48c49a540c446b05a166badb20d7d6"
+        },
+        {
+          "frameId": "frame_a655fa3cb677bb36",
+          "ordinal": 1,
+          "tiltDeg": -10,
+          "blobSha256": "c24c23cf87a6b4da010ded497aef98c71360aa8f7ab157b41b087ddb26b02915"
+        },
+        {
+          "frameId": "frame_5f41b12c4f0dd269",
+          "ordinal": 2,
+          "tiltDeg": 0,
+          "blobSha256": "2fcdb5066fdf763e1d14c5817b7d2c5dfa9f9041d618ef2de1dd5782ddaacb65"
+        },
+        {
+          "frameId": "frame_2eee4904c4a72b5e",
+          "ordinal": 3,
+          "tiltDeg": 10,
+          "blobSha256": "1e501428268c6828f71f4b948ff17a9e3f9aff513bd08c4e3cd405a4b0279fef"
+        },
+        {
+          "frameId": "frame_f8b1629ae18e83b3",
+          "ordinal": 4,
+          "tiltDeg": 20,
+          "blobSha256": "bb8482112bee825b15953f69c0f7513ec7740807a5e9b7c341d25ec04c3056b3"
+        }
+      ]
+    },
+    {
+      "scenario": "concurrent-freeze",
+      "variant": "minimal",
+      "seriesId": "min-concurrent-freeze",
+      "batchId": "batch_6a4ca4e80ee586bb",
+      "truth": {
+        "axisX": 70,
+        "axisY": 48,
+        "axisAngleDeg": 2.5,
+        "markers": [
+          {
+            "trackId": "track-A",
+            "x0": 40,
+            "y0": 28,
+            "z": -14
+          },
+          {
+            "trackId": "track-B",
+            "x0": 88,
+            "y0": 30,
+            "z": 10
+          },
+          {
+            "trackId": "track-C",
+            "x0": 62,
+            "y0": 62,
+            "z": -6
+          },
+          {
+            "trackId": "track-D",
+            "x0": 96,
+            "y0": 66,
+            "z": 16
+          },
+          {
+            "trackId": "track-E",
+            "x0": 32,
+            "y0": 58,
+            "z": 4
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frameId": "frame_489d4733eecc6e3d",
+          "ordinal": 0,
+          "tiltDeg": -20,
+          "blobSha256": "6836dd04386cf86fae71616fb180ac2a08de5f5bdeae92a784729a802137c664"
+        },
+        {
+          "frameId": "frame_1698e6160477a669",
+          "ordinal": 1,
+          "tiltDeg": -10,
+          "blobSha256": "a0913f3f125e31f76169e7fb54c5be15c3f564ee4294732b0dd0982be918a191"
+        },
+        {
+          "frameId": "frame_c252403b147d97ca",
+          "ordinal": 2,
+          "tiltDeg": 0,
+          "blobSha256": "72f62732f8f4e0b8c346d04c4c64343099f916d77755224e69c12ccae3e29832"
+        },
+        {
+          "frameId": "frame_cfc46dc2d1fc22fb",
+          "ordinal": 3,
+          "tiltDeg": 10,
+          "blobSha256": "50952de80522872209b012f552c86e626305bb143d87b7b7d90d0ecedd7de098"
+        },
+        {
+          "frameId": "frame_e6b65a592958ce09",
+          "ordinal": 4,
+          "tiltDeg": 20,
+          "blobSha256": "9334034beb35b1959d371c045147f3d738313f40c5c3601a01bb4e837034e31c"
+        }
+      ]
+    },
+    {
+      "scenario": "combined",
+      "variant": "combined",
+      "seriesId": "combined-tomogram-review",
+      "batchId": "batch_5fafc1f0be1f5c7f",
+      "truth": {
+        "axisX": 70,
+        "axisY": 48,
+        "axisAngleDeg": 2.5,
+        "markers": [
+          {
+            "trackId": "track-A",
+            "x0": 40,
+            "y0": 28,
+            "z": -14
+          },
+          {
+            "trackId": "track-B",
+            "x0": 88,
+            "y0": 30,
+            "z": 10
+          },
+          {
+            "trackId": "track-C",
+            "x0": 62,
+            "y0": 62,
+            "z": -6
+          },
+          {
+            "trackId": "track-D",
+            "x0": 96,
+            "y0": 66,
+            "z": 16
+          },
+          {
+            "trackId": "track-E",
+            "x0": 32,
+            "y0": 58,
+            "z": 4
+          }
+        ]
+      },
+      "frames": [
+        {
+          "frameId": "frame_2d188c0820929c14",
+          "ordinal": 1,
+          "tiltDeg": -30,
+          "blobSha256": "27e2cefa90894d02872884a37f32f1dcd381d19594991e8c2569754947159d5e"
+        },
+        {
+          "frameId": "frame_67e8a895496e0f96",
+          "ordinal": 2,
+          "tiltDeg": -20,
+          "blobSha256": "b514650fb49063fd4e9f5d394d21bf93ee739fc0374182bbd93e34b7e73e4c02"
+        },
+        {
+          "frameId": "frame_9583d657bf87ee27",
+          "ordinal": 3,
+          "tiltDeg": -10,
+          "blobSha256": "dbc56969af379f837354357ec3fb829ef4bcd2e64c2cb424e8f2ac0550ceff56"
+        },
+        {
+          "frameId": "frame_ad80ccc61e7fede1",
+          "ordinal": 4,
+          "tiltDeg": 0,
+          "blobSha256": "b8a2bc338c87386eaeb9a8e84fbb1a89dbe8f9fdddb501e51993009097392454"
+        },
+        {
+          "frameId": "frame_096e11d22cdc5a67",
+          "ordinal": 5,
+          "tiltDeg": 10,
+          "blobSha256": "0ea28d9c8a87e18be404577dc714bdce2de1d838dd5f276d5f10ce28dfa28389"
+        },
+        {
+          "frameId": "frame_ce9d76c7943288da",
+          "ordinal": 6,
+          "tiltDeg": 20,
+          "blobSha256": "f800498895ae437e03519328d698b65064755025122d3d4b1071a30936927e2f"
+        },
+        {
+          "frameId": "frame_d9bf4931c3ace444",
+          "ordinal": 7,
+          "tiltDeg": 30,
+          "blobSha256": "660ba0b6af3263f18c835bdd107d8353e4a48a1e79cdefd66dd80af4382e4e0e"
+        }
+      ]
+    }
+  ],
+  "blobSharing": [],
+  "blobCount": 44
+}
