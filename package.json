@@ -1,0 +1,30 @@
+{
+  "name": "tilt-frame-montage-room",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "倾转帧拼合室：电镜 tilt-series 轴线、fiducial 轨迹与配准分支的离线审阅工具",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest",
+    "build:pack": "vite-node scripts/build-pack.ts"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sql.js": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@types/sql.js": "^1.4.9",
+    "@vitejs/plugin-react": "^4.3.4",
+    "happy-dom": "^15.11.7",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "vite-node": "^3.0.0",
+    "vitest": "^3.0.0"
+  }
+}
