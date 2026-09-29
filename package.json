@@ -1,0 +1,29 @@
+{
+  "name": "tilt-series-alignment-review",
+  "private": true, true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "电镜 tilt-series 轴线、fiducial 轨迹与配准分支审阅工具",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "typescript": "~5.8.0",
+    "vite": "^7.1.0",
+    "vitest": "^3.3.0"
+  }
+}
